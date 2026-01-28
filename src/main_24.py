@@ -33,7 +33,7 @@ args = argparse.Namespace(
 # Set up logging to file
 log_dir = '/workspaces/caterpillar-of-thoughts/logs/game24'
 os.makedirs(log_dir, exist_ok=True)
-log_file = os.path.join(log_dir, f'.log')
+log_file = os.path.join(log_dir, f'900.log')
 
 # Configure logging to write to both file and console
 logging.basicConfig(
