@@ -67,7 +67,7 @@ args = argparse.Namespace(
 )
 
 # Set up logging to file
-log_dir = '/workspaces/rewind/caterpillar-of-thought-llm/logs/crosswords/new'
+log_dir = '/workspaces/caterpillar-of-thoughts/logs/crosswords/new'
 os.makedirs(log_dir, exist_ok=True)
 log_file = os.path.join(log_dir, f'distsolve_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log')
 
@@ -82,7 +82,7 @@ logging.basicConfig(
 )
 
 # Set up logging to file
-log_dir = '/workspaces/rewind/caterpillar-of-thought-llm/logs/crosswords/new'
+log_dir = '/workspaces/caterpillar-of-thoughts/logs/crosswords/new'
 os.makedirs(log_dir, exist_ok=True)
 log_file = os.path.join(log_dir, f'dfs_softmax_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log')
 
