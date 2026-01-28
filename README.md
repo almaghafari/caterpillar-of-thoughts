@@ -10,7 +10,7 @@ In this project, we formalize this intuition using a **Markov-chain / state-expl
 
 - A **state** is a partially completed solution (e.g., a partial expression for Game of 24, or a partially filled crossword).
 - A **transition** samples the next state by “expanding” the current state (one more reasoning step, a new candidate fill, etc.).
-- The algorithm’s goal is to reach a **target/terminal state** (a correct final solution) with minimal expected compute.
+- The algorithm’s goal is to reach a **target state** (a correct final solution) with minimal expected compute.
 
 
 ## What’s included
