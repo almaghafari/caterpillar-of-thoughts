@@ -31,7 +31,7 @@ args = argparse.Namespace(
 )
 
 # Set up logging to file
-log_dir = '/workspaces/caterpillar-of-thought-llm/logs/game24'
+log_dir = '/workspaces/caterpillar-of-thoughts/logs/game24'
 os.makedirs(log_dir, exist_ok=True)
 log_file = os.path.join(log_dir, f'.log')
 
