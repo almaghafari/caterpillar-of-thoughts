@@ -8,7 +8,8 @@ import threading
 completion_tokens = prompt_tokens = 0
 log_lock = threading.Lock()
 
-api_key =""
+api_key = ''
+
 if api_key != "":
     openai.api_key = api_key
 else:
