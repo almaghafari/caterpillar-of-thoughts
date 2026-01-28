@@ -1,0 +1,6 @@
+Puzzle 40 Token Usage
+==================================================
+Prompt tokens: 50,062
+Completion tokens: 16,541
+Total tokens: 66,603
+Estimated cost: $2.4943

@@ -1,0 +1,6 @@
+Puzzle 25 Token Usage
+==================================================
+Prompt tokens: 62,195
+Completion tokens: 18,797
+Total tokens: 80,992
+Estimated cost: $2.9937

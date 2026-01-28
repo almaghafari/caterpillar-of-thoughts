@@ -1,0 +1,344 @@
+
+============================================================
+Iteration 0: |S| = 1 non-complete tables
+============================================================
+
+*** Sampled table #0 from S ***
+  Length: 0 actions
+  Score: 1.0000
+  Probability: 1.0000
+  (Empty table)
+Generated 13 candidate actions for next step
+Processing top 3 candidates out of 13...
+  [1/3] Added table from action: v4. armed (confidence=7.0000, r_word=0.1000)
+  [2/3] Added table from action: v2. inner (confidence=7.0000, r_word=0.0000)
+  [3/3] Added table from action: h2. intro (confidence=7.0000, r_word=0.1000)
+Added 3 new tables to S (now |S|=4)
+Best so far: r_word=0.1
+
+============================================================
+Iteration 1: |S| = 4 non-complete tables
+============================================================
+
+*** Sampled table #3 from S ***
+  Length: 1 actions
+  Score: 7.0000
+  Probability: 0.3331
+  Actions: ['h2. intro']
+Generated 17 candidate actions for next step
+Processing top 3 candidates out of 17...
+  [1/3] Added table from action: h4. navel (confidence=10.9000, r_word=0.2000)
+  [2/3] Added table from action: v2. inner (confidence=10.7000, r_word=0.1000)
+  [3/3] Added table from action: v4. armed (confidence=10.2000, r_word=0.2000)
+Added 3 new tables to S (now |S|=7)
+Best so far: r_word=0.2
+
+============================================================
+Iteration 2: |S| = 7 non-complete tables
+============================================================
+
+*** Sampled table #6 from S ***
+  Length: 2 actions
+  Score: 10.2000
+  Probability: 0.2090
+  Actions: ['h2. intro', 'v4. armed']
+Generated 16 candidate actions for next step
+Processing top 3 candidates out of 16...
+  [1/3] Added table from action: h4. navel (confidence=14.2000, r_word=0.3000)
+  [2/3] Added table from action: v2. inner (confidence=14.2000, r_word=0.2000)
+  [3/3] Added table from action: h3. shame (confidence=13.0000, r_word=0.2000)
+Added 3 new tables to S (now |S|=10)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 3: |S| = 10 non-complete tables
+============================================================
+
+*** Sampled table #9 from S ***
+  Length: 3 actions
+  Score: 13.0000
+  Probability: 0.1261
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame']
+Generated 11 candidate actions for next step
+Processing top 3 candidates out of 11...
+  [1/3] Added table from action: h4. navel (confidence=19.2000, r_word=0.3000)
+  [2/3] Invalid table from v2. inner (steps=4, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=4, impossible=True)
+Added 1 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 4: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 5: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 6: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 7: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 8: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 9: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 10: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 11: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 12: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 13: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 14: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 15: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 16: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 17: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 18: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 19: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 19.2000
+  Probability: 0.9842
+  Actions: ['h2. intro', 'v4. armed', 'h3. shame', 'h4. navel']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v2. inner (steps=5, impossible=True)
+  [2/3] Invalid table from v1. kiang (steps=5, impossible=True)
+  [3/3] Invalid table from h5. brand (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+Finished after 20 iterations with 10 steps logged
+Final |S| = 11 tables
+Total unique tables explored: 11

@@ -1,0 +1,482 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "v5. drier"
+    ],
+    "info": {
+      "r_letter": 0.16,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 2.4000000000000004,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 2.4000000000000004,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "v4. leave"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 2.4000000000000004,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 2.4000000000000004,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "v3. unsew"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.7,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.7,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "v3. unsew",
+      "h1. could"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.9,
+    "parent_table_score": 1.7,
+    "parent_prob": 0.18102526749044306,
+    "action_score": 6.2,
+    "iteration": 1,
+    "pool_size": 5,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "v3. unsew",
+      "h4. sieve"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.9,
+    "parent_table_score": 1.7,
+    "parent_prob": 0.18102526749044306,
+    "action_score": 6.2,
+    "iteration": 1,
+    "pool_size": 6,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 5,
+    "env_step": 2,
+    "actions": [
+      "v3. unsew",
+      "v4. leave"
+    ],
+    "info": {
+      "r_letter": 0.4,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 6.800000000000001,
+    "parent_table_score": 1.7,
+    "parent_prob": 0.18102526749044306,
+    "action_score": 5.1000000000000005,
+    "iteration": 1,
+    "pool_size": 7,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 6,
+    "env_step": 3,
+    "actions": [
+      "v3. unsew",
+      "v4. leave",
+      "h1. could"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 14.8,
+    "parent_table_score": 6.800000000000001,
+    "parent_prob": 0.14200488977941864,
+    "action_score": 8.0,
+    "iteration": 2,
+    "pool_size": 8,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 7,
+    "env_step": 3,
+    "actions": [
+      "v3. unsew",
+      "v4. leave",
+      "h4. sieve"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 14.8,
+    "parent_table_score": 6.800000000000001,
+    "parent_prob": 0.14200488977941864,
+    "action_score": 8.0,
+    "iteration": 2,
+    "pool_size": 9,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 8,
+    "env_step": 3,
+    "actions": [
+      "v3. unsew",
+      "v4. leave",
+      "h3. essay"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 14.8,
+    "parent_table_score": 6.800000000000001,
+    "parent_prob": 0.14200488977941864,
+    "action_score": 8.0,
+    "iteration": 2,
+    "pool_size": 10,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 9,
+    "env_step": 4,
+    "actions": [
+      "v3. unsew",
+      "v4. leave",
+      "h4. sieve",
+      "h3. essay"
+    ],
+    "info": {
+      "r_letter": 0.64,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 1,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 22.3,
+    "parent_table_score": 14.8,
+    "parent_prob": 0.333071058579361,
+    "action_score": 7.5,
+    "iteration": 3,
+    "pool_size": 11,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 10,
+    "env_step": 4,
+    "actions": [
+      "v3. unsew",
+      "v4. leave",
+      "h4. sieve",
+      "v5. drier"
+    ],
+    "info": {
+      "r_letter": 0.64,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 22.3,
+    "parent_table_score": 14.8,
+    "parent_prob": 0.333071058579361,
+    "action_score": 7.5,
+    "iteration": 3,
+    "pool_size": 12,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 11,
+    "env_step": 4,
+    "actions": [
+      "v3. unsew",
+      "v4. leave",
+      "h4. sieve",
+      "h1. could"
+    ],
+    "info": {
+      "r_letter": 0.64,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 22.3,
+    "parent_table_score": 14.8,
+    "parent_prob": 0.333071058579361,
+    "action_score": 7.5,
+    "iteration": 3,
+    "pool_size": 13,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 12,
+    "env_step": 5,
+    "actions": [
+      "v3. unsew",
+      "v4. leave",
+      "h4. sieve",
+      "v5. drier",
+      "h1. could"
+    ],
+    "info": {
+      "r_letter": 0.72,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 30.3,
+    "parent_table_score": 22.3,
+    "parent_prob": 0.3331489287739156,
+    "action_score": 8.0,
+    "iteration": 4,
+    "pool_size": 14,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 13,
+    "env_step": 5,
+    "actions": [
+      "v3. unsew",
+      "v4. leave",
+      "h4. sieve",
+      "v5. drier",
+      "v1. crest"
+    ],
+    "info": {
+      "r_letter": 0.8,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 27.900000000000002,
+    "parent_table_score": 22.3,
+    "parent_prob": 0.3331489287739156,
+    "action_score": 5.6000000000000005,
+    "iteration": 4,
+    "pool_size": 15,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 14,
+    "env_step": 6,
+    "actions": [
+      "v3. unsew",
+      "v4. leave",
+      "h4. sieve",
+      "v5. drier",
+      "h1. could",
+      "v1. crest"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 36.0,
+    "parent_table_score": 30.3,
+    "parent_prob": 0.9159816741583486,
+    "action_score": 5.7,
+    "iteration": 5,
+    "pool_size": 16,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 15,
+    "env_step": 6,
+    "actions": [
+      "v3. unsew",
+      "v4. leave",
+      "h4. sieve",
+      "v5. drier",
+      "h1. could",
+      "h2. tuner"
+    ],
+    "info": {
+      "r_letter": 0.76,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 33.3,
+    "parent_table_score": 30.3,
+    "parent_prob": 0.9159816741583486,
+    "action_score": 3.0,
+    "iteration": 5,
+    "pool_size": 17,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 16,
+    "env_step": 7,
+    "actions": [
+      "v3. unsew",
+      "v4. leave",
+      "h4. sieve",
+      "v5. drier",
+      "h1. could",
+      "v1. crest",
+      "v2. ontic"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 1
+    },
+    "table_score": 37.7,
+    "parent_table_score": 36.0,
+    "parent_prob": 0.9338302921945214,
+    "action_score": 1.7000000000000002,
+    "iteration": 6,
+    "pool_size": 18,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 17,
+    "env_step": 7,
+    "actions": [
+      "v3. unsew",
+      "v4. leave",
+      "h4. sieve",
+      "v5. drier",
+      "h1. could",
+      "v1. crest",
+      "h5. tower"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 37.7,
+    "parent_table_score": 36.0,
+    "parent_prob": 0.9338302921945214,
+    "action_score": 1.7,
+    "iteration": 6,
+    "pool_size": 19,
+    "candidate_index": 2
+  }
+]

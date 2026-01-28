@@ -1,0 +1,6 @@
+Puzzle 60 Token Usage
+==================================================
+Prompt tokens: 42,000
+Completion tokens: 14,961
+Total tokens: 56,961
+Estimated cost: $2.1577

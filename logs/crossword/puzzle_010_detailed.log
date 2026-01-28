@@ -1,0 +1,331 @@
+
+============================================================
+Iteration 0: |S| = 1 non-complete tables
+============================================================
+
+*** Sampled table #0 from S ***
+  Length: 0 actions
+  Score: 1.0000
+  Probability: 1.0000
+  (Empty table)
+Generated 17 candidate actions for next step
+Processing top 3 candidates out of 17...
+  [1/3] Added table from action: h1. bebop (confidence=5.0000, r_word=0.1000)
+  [2/3] Added table from action: v3. being (confidence=5.0000, r_word=0.1000)
+  [3/3] Added table from action: h3. friar (confidence=5.0000, r_word=0.1000)
+Added 3 new tables to S (now |S|=4)
+Best so far: r_word=0.1
+
+============================================================
+Iteration 1: |S| = 4 non-complete tables
+============================================================
+
+*** Sampled table #3 from S ***
+  Length: 1 actions
+  Score: 5.0000
+  Probability: 0.3313
+  Actions: ['h3. friar']
+Generated 18 candidate actions for next step
+Processing top 3 candidates out of 18...
+  [1/3] Added table from action: v2. error (confidence=9.2000, r_word=0.2000)
+  [2/3] Added table from action: h1. bebop (confidence=8.0000, r_word=0.2000)
+  [3/3] Added table from action: v1. buffo (confidence=7.9000, r_word=0.2000)
+Added 3 new tables to S (now |S|=7)
+Best so far: r_word=0.2
+
+============================================================
+Iteration 2: |S| = 7 non-complete tables
+============================================================
+
+*** Sampled table #2 from S ***
+  Length: 1 actions
+  Score: 5.0000
+  Probability: 0.0093
+  Actions: ['v3. being']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Added table from action: v2. error (confidence=7.5000, r_word=0.2000)
+  [2/3] Added table from action: h3. friar (confidence=7.2000, r_word=0.2000)
+  [3/3] Added table from action: v1. buffo (confidence=7.1000, r_word=0.2000)
+Added 3 new tables to S (now |S|=10)
+Best so far: r_word=0.2
+
+============================================================
+Iteration 3: |S| = 10 non-complete tables
+============================================================
+
+*** Sampled table #4 from S ***
+  Length: 2 actions
+  Score: 9.2000
+  Probability: 0.4856
+  Actions: ['h3. friar', 'v2. error']
+Generated 21 candidate actions for next step
+Processing top 3 candidates out of 21...
+  [1/3] Added table from action: h1. bebop (confidence=17.2000, r_word=0.3000)
+  [2/3] Added table from action: v3. being (confidence=12.5000, r_word=0.3000)
+  [3/3] Invalid table from v5. robes (steps=3, impossible=True)
+Added 2 new tables to S (now |S|=12)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 4: |S| = 12 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 3 actions
+  Score: 17.2000
+  Probability: 0.9903
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop']
+Generated 17 candidate actions for next step
+Processing top 3 candidates out of 17...
+  [1/3] Added table from action: v3. being (confidence=20.9000, r_word=0.4000)
+  [2/3] Added table from action: v1. buffo (confidence=19.1000, r_word=0.4000)
+  [3/3] Added table from action: h5. argal (confidence=18.2000, r_word=0.3000)
+Added 3 new tables to S (now |S|=15)
+Best so far: r_word=0.4
+
+============================================================
+Iteration 5: |S| = 15 non-complete tables
+============================================================
+
+*** Sampled table #12 from S ***
+  Length: 4 actions
+  Score: 20.9000
+  Probability: 0.7952
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being']
+Generated 19 candidate actions for next step
+Processing top 3 candidates out of 19...
+  [1/3] Added table from action: v1. buffo (confidence=22.5000, r_word=0.5000)
+  [2/3] Added table from action: h5. argal (confidence=22.0000, r_word=0.4000)
+  [3/3] Invalid table from h2. abree (steps=5, impossible=True)
+Added 2 new tables to S (now |S|=17)
+Best so far: r_word=0.5
+
+============================================================
+Iteration 6: |S| = 17 non-complete tables
+============================================================
+
+*** Sampled table #15 from S ***
+  Length: 5 actions
+  Score: 22.5000
+  Probability: 0.5375
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Added table from action: h2. urena (confidence=28.5000, r_word=0.6000)
+  [2/3] Added table from action: h4. fonts (confidence=23.5000, r_word=0.5000)
+  [3/3] Added table from action: h5. organ (confidence=23.4000, r_word=0.5000)
+Added 3 new tables to S (now |S|=20)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 7: |S| = 20 non-complete tables
+============================================================
+
+*** Sampled table #17 from S ***
+  Length: 6 actions
+  Score: 28.5000
+  Probability: 0.9829
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena']
+Generated 8 candidate actions for next step
+Processing top 3 candidates out of 8...
+  [1/3] Added table from action: v4. onaga (confidence=35.5000, r_word=0.7000)
+  [2/3] Added table from action: h4. fondu (confidence=34.7000, r_word=0.6000)
+  [3/3] Added table from action: v5. pareg (confidence=29.5000, r_word=0.6000)
+Added 3 new tables to S (now |S|=23)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 8: |S| = 23 non-complete tables
+============================================================
+
+*** Sampled table #21 from S ***
+  Length: 7 actions
+  Score: 34.7000
+  Probability: 0.3093
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena', 'h4. fondu']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Added table from action: v4. onade (confidence=37.9000, r_word=0.6000)
+  [2/3] Added table from action: h5. organ (confidence=37.8000, r_word=0.6000)
+  [3/3] Invalid table from v5. puree (steps=8, impossible=True)
+Added 2 new tables to S (now |S|=25)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 9: |S| = 25 non-complete tables
+============================================================
+
+*** Sampled table #23 from S ***
+  Length: 8 actions
+  Score: 37.9000
+  Probability: 0.4910
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena', 'h4. fondu', 'v4. onade']
+Generated 5 candidate actions for next step
+Processing top 3 candidates out of 5...
+  [1/3] Added table from action: h5. orgea (confidence=40.0000, r_word=0.6000)
+  [2/3] Added table from action: v5. parus (confidence=39.3000, r_word=0.6000)
+  [3/3] Added table from action: h5. orger (confidence=38.2000, r_word=0.6000)
+Added 3 new tables to S (now |S|=28)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 10: |S| = 28 non-complete tables
+============================================================
+
+*** Sampled table #25 from S ***
+  Length: 9 actions
+  Score: 40.0000
+  Probability: 0.5232
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena', 'h4. fondu', 'v4. onade', 'h5. orgea']
+Generated 2 candidate actions for next step
+Processing top 2 candidates out of 2...
+  [1/2] Invalid table from v5. plute (steps=10, impossible=True)
+  [2/2] Invalid table from v5. plumb (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=28)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 11: |S| = 28 non-complete tables
+============================================================
+
+*** Sampled table #26 from S ***
+  Length: 9 actions
+  Score: 39.3000
+  Probability: 0.2598
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena', 'h4. fondu', 'v4. onade', 'v5. parus']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h5. orges (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=28)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 12: |S| = 28 non-complete tables
+============================================================
+
+*** Sampled table #25 from S ***
+  Length: 9 actions
+  Score: 40.0000
+  Probability: 0.5232
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena', 'h4. fondu', 'v4. onade', 'h5. orgea']
+Generated 2 candidate actions for next step
+Processing top 2 candidates out of 2...
+  [1/2] Invalid table from v5. plute (steps=10, impossible=True)
+  [2/2] Invalid table from v5. plumb (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=28)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 13: |S| = 28 non-complete tables
+============================================================
+
+*** Sampled table #25 from S ***
+  Length: 9 actions
+  Score: 40.0000
+  Probability: 0.5232
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena', 'h4. fondu', 'v4. onade', 'h5. orgea']
+Generated 2 candidate actions for next step
+Processing top 2 candidates out of 2...
+  [1/2] Invalid table from v5. plute (steps=10, impossible=True)
+  [2/2] Invalid table from v5. plumb (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=28)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 14: |S| = 28 non-complete tables
+============================================================
+
+*** Sampled table #26 from S ***
+  Length: 9 actions
+  Score: 39.3000
+  Probability: 0.2598
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena', 'h4. fondu', 'v4. onade', 'v5. parus']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h5. orges (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=28)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 15: |S| = 28 non-complete tables
+============================================================
+
+*** Sampled table #26 from S ***
+  Length: 9 actions
+  Score: 39.3000
+  Probability: 0.2598
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena', 'h4. fondu', 'v4. onade', 'v5. parus']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h5. orges (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=28)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 16: |S| = 28 non-complete tables
+============================================================
+
+*** Sampled table #27 from S ***
+  Length: 9 actions
+  Score: 38.2000
+  Probability: 0.0865
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena', 'h4. fondu', 'v4. onade', 'h5. orger']
+Generated 4 candidate actions for next step
+Processing top 3 candidates out of 4...
+  [1/3] Invalid table from v5. purer (steps=10, impossible=True)
+  [2/3] Invalid table from v5. plute (steps=10, impossible=True)
+  [3/3] Invalid table from v5. pareg (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=28)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 17: |S| = 28 non-complete tables
+============================================================
+
+*** Sampled table #25 from S ***
+  Length: 9 actions
+  Score: 40.0000
+  Probability: 0.5232
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena', 'h4. fondu', 'v4. onade', 'h5. orgea']
+Generated 2 candidate actions for next step
+Processing top 2 candidates out of 2...
+  [1/2] Invalid table from v5. plute (steps=10, impossible=True)
+  [2/2] Invalid table from v5. plumb (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=28)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 18: |S| = 28 non-complete tables
+============================================================
+
+*** Sampled table #26 from S ***
+  Length: 9 actions
+  Score: 39.3000
+  Probability: 0.2598
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena', 'h4. fondu', 'v4. onade', 'v5. parus']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h5. orges (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=28)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 19: |S| = 28 non-complete tables
+============================================================
+
+*** Sampled table #25 from S ***
+  Length: 9 actions
+  Score: 40.0000
+  Probability: 0.5232
+  Actions: ['h3. friar', 'v2. error', 'h1. bebop', 'v3. being', 'v1. buffo', 'h2. urena', 'h4. fondu', 'v4. onade', 'h5. orgea']
+Generated 2 candidate actions for next step
+Processing top 2 candidates out of 2...
+  [1/2] Invalid table from v5. plute (steps=10, impossible=True)
+  [2/2] Invalid table from v5. plumb (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=28)
+Best so far: r_word=0.7
+
+Finished after 20 iterations with 27 steps logged
+Final |S| = 28 tables
+Total unique tables explored: 28

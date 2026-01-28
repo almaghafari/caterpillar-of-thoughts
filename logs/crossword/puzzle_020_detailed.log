@@ -1,0 +1,344 @@
+
+============================================================
+Iteration 0: |S| = 1 non-complete tables
+============================================================
+
+*** Sampled table #0 from S ***
+  Length: 0 actions
+  Score: 1.0000
+  Probability: 1.0000
+  (Empty table)
+Generated 20 candidate actions for next step
+Processing top 3 candidates out of 20...
+  [1/3] Added table from action: v3. elope (confidence=4.5000, r_word=0.1000)
+  [2/3] Added table from action: v5. enact (confidence=3.7000, r_word=0.0000)
+  [3/3] Added table from action: h1. elect (confidence=3.2000, r_word=0.0000)
+Added 3 new tables to S (now |S|=4)
+Best so far: r_word=0.1
+
+============================================================
+Iteration 1: |S| = 4 non-complete tables
+============================================================
+
+*** Sampled table #1 from S ***
+  Length: 1 actions
+  Score: 4.5000
+  Probability: 0.5708
+  Actions: ['v3. elope']
+Generated 9 candidate actions for next step
+Processing top 3 candidates out of 9...
+  [1/3] Added table from action: v5. apply (confidence=5.0000, r_word=0.1000)
+  [2/3] Added table from action: h2. helix (confidence=5.0000, r_word=0.2000)
+  [3/3] Invalid table from h4. sleep (steps=2, impossible=True)
+Added 2 new tables to S (now |S|=6)
+Best so far: r_word=0.2
+
+============================================================
+Iteration 2: |S| = 6 non-complete tables
+============================================================
+
+*** Sampled table #5 from S ***
+  Length: 2 actions
+  Score: 5.0000
+  Probability: 0.3265
+  Actions: ['v3. elope', 'h2. helix']
+Generated 18 candidate actions for next step
+Processing top 3 candidates out of 18...
+  [1/3] Added table from action: h3. erode (confidence=9.2000, r_word=0.2000)
+  [2/3] Invalid table from v2. egret (steps=3, impossible=True)
+  [3/3] Added table from action: v5. exert (confidence=7.6000, r_word=0.3000)
+Added 2 new tables to S (now |S|=8)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 3: |S| = 8 non-complete tables
+============================================================
+
+*** Sampled table #6 from S ***
+  Length: 3 actions
+  Score: 9.2000
+  Probability: 0.8014
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode']
+Generated 9 candidate actions for next step
+Processing top 3 candidates out of 9...
+  [1/3] Added table from action: v5. exert (confidence=11.4000, r_word=0.3000)
+  [2/3] Added table from action: v4. cider (confidence=11.4000, r_word=0.2000)
+  [3/3] Invalid table from h4. sleep (steps=4, impossible=True)
+Added 2 new tables to S (now |S|=10)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 4: |S| = 10 non-complete tables
+============================================================
+
+*** Sampled table #8 from S ***
+  Length: 4 actions
+  Score: 11.4000
+  Probability: 0.4677
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert']
+Generated 14 candidate actions for next step
+Processing top 3 candidates out of 14...
+  [1/3] Added table from action: v4. cider (confidence=14.1000, r_word=0.3000)
+  [2/3] Added table from action: v2. heron (confidence=14.0000, r_word=0.4000)
+  [3/3] Added table from action: v1. chess (confidence=13.9000, r_word=0.4000)
+Added 3 new tables to S (now |S|=13)
+Best so far: r_word=0.4
+
+============================================================
+Iteration 5: |S| = 13 non-complete tables
+============================================================
+
+*** Sampled table #11 from S ***
+  Length: 5 actions
+  Score: 14.0000
+  Probability: 0.3156
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron']
+Generated 10 candidate actions for next step
+Processing top 3 candidates out of 10...
+  [1/3] Added table from action: v1. chess (confidence=22.0000, r_word=0.5000)
+  [2/3] Invalid table from h5. pence (steps=6, impossible=True)
+  [3/3] Invalid table from h1. chose (steps=6, impossible=True)
+Added 1 new tables to S (now |S|=14)
+Best so far: r_word=0.5
+
+============================================================
+Iteration 6: |S| = 14 non-complete tables
+============================================================
+
+*** Sampled table #13 from S ***
+  Length: 6 actions
+  Score: 22.0000
+  Probability: 0.9989
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess']
+Generated 9 candidate actions for next step
+Processing top 3 candidates out of 9...
+  [1/3] Invalid table from h1. chose (steps=7, impossible=True)
+  [2/3] Added table from action: v4. cider (confidence=29.2000, r_word=0.7000)
+  [3/3] Added table from action: h4. sopor (confidence=23.5000, r_word=0.5000)
+Added 2 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 7: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 8: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 9: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 10: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 11: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 12: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 13: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 14: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 15: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 16: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 17: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 18: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 19: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 7 actions
+  Score: 29.2000
+  Probability: 0.9959
+  Actions: ['v3. elope', 'h2. helix', 'h3. erode', 'v5. exert', 'v2. heron', 'v1. chess', 'v4. cider']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Invalid table from h1. chose (steps=8, impossible=True)
+  [2/3] Invalid table from h4. sober (steps=8, impossible=True)
+  [3/3] Invalid table from h5. stert (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.7
+
+Finished after 20 iterations with 15 steps logged
+Final |S| = 16 tables
+Total unique tables explored: 16

@@ -1,0 +1,355 @@
+
+============================================================
+Iteration 0: |S| = 1 non-complete tables
+============================================================
+
+*** Sampled table #0 from S ***
+  Length: 0 actions
+  Score: 1.0000
+  Probability: 1.0000
+  (Empty table)
+Generated 19 candidate actions for next step
+Processing top 3 candidates out of 19...
+  [1/3] Added table from action: h4. seder (confidence=3.7000, r_word=0.1000)
+  [2/3] Added table from action: h1. wizen (confidence=1.4000, r_word=0.0000)
+  [3/3] Added table from action: v4. filer (confidence=1.3000, r_word=0.1000)
+Added 3 new tables to S (now |S|=4)
+Best so far: r_word=0.1
+
+============================================================
+Iteration 1: |S| = 4 non-complete tables
+============================================================
+
+*** Sampled table #1 from S ***
+  Length: 1 actions
+  Score: 3.7000
+  Probability: 0.7948
+  Actions: ['h4. seder']
+Generated 16 candidate actions for next step
+Processing top 3 candidates out of 16...
+  [1/3] Added table from action: v4. seder (confidence=5.7000, r_word=0.1000)
+  [2/3] Added table from action: h1. wizen (confidence=4.4000, r_word=0.1000)
+  [3/3] Added table from action: v3. evade (confidence=4.2000, r_word=0.2000)
+Added 3 new tables to S (now |S|=7)
+Best so far: r_word=0.2
+
+============================================================
+Iteration 2: |S| = 7 non-complete tables
+============================================================
+
+*** Sampled table #4 from S ***
+  Length: 2 actions
+  Score: 5.7000
+  Probability: 0.6003
+  Actions: ['h4. seder', 'v4. seder']
+Generated 6 candidate actions for next step
+Processing top 3 candidates out of 6...
+  [1/3] Invalid table from v5. pines (steps=3, impossible=True)
+  [2/3] Invalid table from v3. dodge (steps=3, impossible=True)
+  [3/3] Invalid table from v1. rises (steps=3, impossible=True)
+Added 0 new tables to S (now |S|=7)
+Best so far: r_word=0.2
+
+============================================================
+Iteration 3: |S| = 7 non-complete tables
+============================================================
+
+*** Sampled table #4 from S ***
+  Length: 2 actions
+  Score: 5.7000
+  Probability: 0.6003
+  Actions: ['h4. seder', 'v4. seder']
+Generated 6 candidate actions for next step
+Processing top 3 candidates out of 6...
+  [1/3] Invalid table from v5. pines (steps=3, impossible=True)
+  [2/3] Invalid table from v3. dodge (steps=3, impossible=True)
+  [3/3] Invalid table from v1. rises (steps=3, impossible=True)
+Added 0 new tables to S (now |S|=7)
+Best so far: r_word=0.2
+
+============================================================
+Iteration 4: |S| = 7 non-complete tables
+============================================================
+
+*** Sampled table #4 from S ***
+  Length: 2 actions
+  Score: 5.7000
+  Probability: 0.6003
+  Actions: ['h4. seder', 'v4. seder']
+Generated 6 candidate actions for next step
+Processing top 3 candidates out of 6...
+  [1/3] Invalid table from v5. pines (steps=3, impossible=True)
+  [2/3] Invalid table from v3. dodge (steps=3, impossible=True)
+  [3/3] Invalid table from v1. rises (steps=3, impossible=True)
+Added 0 new tables to S (now |S|=7)
+Best so far: r_word=0.2
+
+============================================================
+Iteration 5: |S| = 7 non-complete tables
+============================================================
+
+*** Sampled table #6 from S ***
+  Length: 2 actions
+  Score: 4.2000
+  Probability: 0.1339
+  Actions: ['h4. seder', 'v3. evade']
+Generated 27 candidate actions for next step
+Processing top 3 candidates out of 27...
+  [1/3] Invalid table from v1. rises (steps=3, impossible=True)
+  [2/3] Added table from action: v4. seder (confidence=5.5000, r_word=0.2000)
+  [3/3] Added table from action: v4. filer (confidence=5.2000, r_word=0.3000)
+Added 2 new tables to S (now |S|=9)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 6: |S| = 9 non-complete tables
+============================================================
+
+*** Sampled table #5 from S ***
+  Length: 2 actions
+  Score: 4.4000
+  Probability: 0.0882
+  Actions: ['h4. seder', 'h1. wizen']
+Generated 14 candidate actions for next step
+Processing top 3 candidates out of 14...
+  [1/3] Invalid table from v1. wakes (steps=3, impossible=True)
+  [2/3] Invalid table from v5. needs (steps=3, impossible=True)
+  [3/3] Added table from action: h2. rival (confidence=5.4000, r_word=0.1000)
+Added 1 new tables to S (now |S|=10)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 7: |S| = 10 non-complete tables
+============================================================
+
+*** Sampled table #9 from S ***
+  Length: 3 actions
+  Score: 5.4000
+  Probability: 0.1933
+  Actions: ['h4. seder', 'h1. wizen', 'h2. rival']
+No candidates available, removing table from S
+
+============================================================
+Iteration 7: |S| = 9 non-complete tables
+============================================================
+
+*** Sampled table #4 from S ***
+  Length: 2 actions
+  Score: 5.7000
+  Probability: 0.3235
+  Actions: ['h4. seder', 'v4. seder']
+Generated 6 candidate actions for next step
+Processing top 3 candidates out of 6...
+  [1/3] Invalid table from v5. pines (steps=3, impossible=True)
+  [2/3] Invalid table from v3. dodge (steps=3, impossible=True)
+  [3/3] Invalid table from v1. rises (steps=3, impossible=True)
+Added 0 new tables to S (now |S|=9)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 8: |S| = 9 non-complete tables
+============================================================
+
+*** Sampled table #8 from S ***
+  Length: 3 actions
+  Score: 5.2000
+  Probability: 0.1962
+  Actions: ['h4. seder', 'v3. evade', 'v4. filer']
+Generated 10 candidate actions for next step
+Processing top 3 candidates out of 10...
+  [1/3] Invalid table from v1. rises (steps=4, impossible=True)
+  [2/3] Invalid table from h5. never (steps=4, impossible=True)
+  [3/3] Invalid table from h1. deify (steps=4, impossible=True)
+Added 0 new tables to S (now |S|=9)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 9: |S| = 9 non-complete tables
+============================================================
+
+*** Sampled table #7 from S ***
+  Length: 3 actions
+  Score: 5.5000
+  Probability: 0.2649
+  Actions: ['h4. seder', 'v3. evade', 'v4. seder']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v1. rises (steps=4, impossible=True)
+  [2/3] Invalid table from h5. never (steps=4, impossible=True)
+  [3/3] Added table from action: v5. yearn (confidence=6.0000, r_word=0.3000)
+Added 1 new tables to S (now |S|=10)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 10: |S| = 10 non-complete tables
+============================================================
+
+*** Sampled table #7 from S ***
+  Length: 3 actions
+  Score: 5.5000
+  Probability: 0.1844
+  Actions: ['h4. seder', 'v3. evade', 'v4. seder']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v1. rises (steps=4, impossible=True)
+  [2/3] Invalid table from h5. never (steps=4, impossible=True)
+  [3/3] Table from v5. yearn already in S
+Added 0 new tables to S (now |S|=10)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 11: |S| = 10 non-complete tables
+============================================================
+
+*** Sampled table #4 from S ***
+  Length: 2 actions
+  Score: 5.7000
+  Probability: 0.2252
+  Actions: ['h4. seder', 'v4. seder']
+Generated 6 candidate actions for next step
+Processing top 3 candidates out of 6...
+  [1/3] Invalid table from v5. pines (steps=3, impossible=True)
+  [2/3] Invalid table from v3. dodge (steps=3, impossible=True)
+  [3/3] Invalid table from v1. rises (steps=3, impossible=True)
+Added 0 new tables to S (now |S|=10)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 12: |S| = 10 non-complete tables
+============================================================
+
+*** Sampled table #7 from S ***
+  Length: 3 actions
+  Score: 5.5000
+  Probability: 0.1844
+  Actions: ['h4. seder', 'v3. evade', 'v4. seder']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v1. rises (steps=4, impossible=True)
+  [2/3] Invalid table from h5. never (steps=4, impossible=True)
+  [3/3] Table from v5. yearn already in S
+Added 0 new tables to S (now |S|=10)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 13: |S| = 10 non-complete tables
+============================================================
+
+*** Sampled table #9 from S ***
+  Length: 4 actions
+  Score: 6.0000
+  Probability: 0.3039
+  Actions: ['h4. seder', 'v3. evade', 'v4. seder', 'v5. yearn']
+Generated 10 candidate actions for next step
+Processing top 3 candidates out of 10...
+  [1/3] Invalid table from v1. rises (steps=5, impossible=True)
+  [2/3] Added table from action: h5. stern (confidence=6.7000, r_word=0.3000)
+  [3/3] Added table from action: h5. etern (confidence=6.5000, r_word=0.4000)
+Added 2 new tables to S (now |S|=12)
+Best so far: r_word=0.4
+
+============================================================
+Iteration 14: |S| = 12 non-complete tables
+============================================================
+
+*** Sampled table #7 from S ***
+  Length: 3 actions
+  Score: 5.5000
+  Probability: 0.0872
+  Actions: ['h4. seder', 'v3. evade', 'v4. seder']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Invalid table from v1. rises (steps=4, impossible=True)
+  [2/3] Invalid table from h5. never (steps=4, impossible=True)
+  [3/3] Table from v5. yearn already in S
+Added 0 new tables to S (now |S|=12)
+Best so far: r_word=0.4
+
+============================================================
+Iteration 15: |S| = 12 non-complete tables
+============================================================
+
+*** Sampled table #8 from S ***
+  Length: 3 actions
+  Score: 5.2000
+  Probability: 0.0646
+  Actions: ['h4. seder', 'v3. evade', 'v4. filer']
+Generated 10 candidate actions for next step
+Processing top 3 candidates out of 10...
+  [1/3] Invalid table from v1. rises (steps=4, impossible=True)
+  [2/3] Invalid table from h5. never (steps=4, impossible=True)
+  [3/3] Invalid table from h1. deify (steps=4, impossible=True)
+Added 0 new tables to S (now |S|=12)
+Best so far: r_word=0.4
+
+============================================================
+Iteration 16: |S| = 12 non-complete tables
+============================================================
+
+*** Sampled table #11 from S ***
+  Length: 5 actions
+  Score: 6.5000
+  Probability: 0.2371
+  Actions: ['h4. seder', 'v3. evade', 'v4. seder', 'v5. yearn', 'h5. etern']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Added table from action: v2. reset (confidence=9.8000, r_word=0.4000)
+  [2/3] Added table from action: v1. arise (confidence=9.5000, r_word=0.5000)
+  [3/3] Added table from action: h1. poesy (confidence=7.0000, r_word=0.4000)
+Added 3 new tables to S (now |S|=15)
+Best so far: r_word=0.5
+
+============================================================
+Iteration 17: |S| = 15 non-complete tables
+============================================================
+
+*** Sampled table #12 from S ***
+  Length: 6 actions
+  Score: 9.8000
+  Probability: 0.5109
+  Actions: ['h4. seder', 'v3. evade', 'v4. seder', 'v5. yearn', 'h5. etern', 'v2. reset']
+Generated 4 candidate actions for next step
+Processing top 3 candidates out of 4...
+  [1/3] Added table from action: v1. arise (confidence=15.8000, r_word=0.5000)
+  [2/3] Added table from action: h3. osada (confidence=10.5000, r_word=0.4000)
+  [3/3] Added table from action: h2. revee (confidence=10.5000, r_word=0.4000)
+Added 3 new tables to S (now |S|=18)
+Best so far: r_word=0.5
+
+============================================================
+Iteration 18: |S| = 18 non-complete tables
+============================================================
+
+*** Sampled table #15 from S ***
+  Length: 7 actions
+  Score: 15.8000
+  Probability: 0.9854
+  Actions: ['h4. seder', 'v3. evade', 'v4. seder', 'v5. yearn', 'h5. etern', 'v2. reset', 'v1. arise']
+Generated 10 candidate actions for next step
+Processing top 3 candidates out of 10...
+  [1/3] Invalid table from h1. seres (steps=8, impossible=True)
+  [2/3] Invalid table from h3. isaba (steps=8, impossible=True)
+  [3/3] Invalid table from h2. resee (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=18)
+Best so far: r_word=0.5
+
+============================================================
+Iteration 19: |S| = 18 non-complete tables
+============================================================
+
+*** Sampled table #15 from S ***
+  Length: 7 actions
+  Score: 15.8000
+  Probability: 0.9854
+  Actions: ['h4. seder', 'v3. evade', 'v4. seder', 'v5. yearn', 'h5. etern', 'v2. reset', 'v1. arise']
+Generated 10 candidate actions for next step
+Processing top 3 candidates out of 10...
+  [1/3] Invalid table from h1. seres (steps=8, impossible=True)
+  [2/3] Invalid table from h3. isaba (steps=8, impossible=True)
+  [3/3] Invalid table from h2. resee (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=18)
+Best so far: r_word=0.5
+
+Finished after 20 iterations with 18 steps logged
+Final |S| = 18 tables
+Total unique tables explored: 18

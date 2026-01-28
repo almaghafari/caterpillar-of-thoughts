@@ -1,0 +1,576 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "v5. eater"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.0,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "h1. elect"
+    ],
+    "info": {
+      "r_letter": 0.04,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.0,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "v2. hello"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.0,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "v2. hello",
+      "v5. eater"
+    ],
+    "info": {
+      "r_letter": 0.4,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 3.7,
+    "parent_table_score": 1.0,
+    "parent_prob": 0.25,
+    "action_score": 2.7,
+    "iteration": 1,
+    "pool_size": 5,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "v2. hello",
+      "v3. iblis"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 3.5,
+    "parent_table_score": 1.0,
+    "parent_prob": 0.25,
+    "action_score": 2.5,
+    "iteration": 1,
+    "pool_size": 6,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 5,
+    "env_step": 2,
+    "actions": [
+      "v2. hello",
+      "v4. sieve"
+    ],
+    "info": {
+      "r_letter": 0.4,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 3.4000000000000004,
+    "parent_table_score": 1.0,
+    "parent_prob": 0.25,
+    "action_score": 2.4000000000000004,
+    "iteration": 1,
+    "pool_size": 7,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 6,
+    "env_step": 3,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "h1. chose"
+    ],
+    "info": {
+      "r_letter": 0.48,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 6.6,
+    "parent_table_score": 3.7,
+    "parent_prob": 0.35356040323580146,
+    "action_score": 2.9,
+    "iteration": 2,
+    "pool_size": 8,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 7,
+    "env_step": 3,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve"
+    ],
+    "info": {
+      "r_letter": 0.6,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 5.800000000000001,
+    "parent_table_score": 3.7,
+    "parent_prob": 0.35356040323580146,
+    "action_score": 2.1,
+    "iteration": 2,
+    "pool_size": 9,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 8,
+    "env_step": 3,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v3. iblis"
+    ],
+    "info": {
+      "r_letter": 0.56,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 1,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 5.6,
+    "parent_table_score": 3.7,
+    "parent_prob": 0.35356040323580146,
+    "action_score": 1.9,
+    "iteration": 2,
+    "pool_size": 10,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 9,
+    "env_step": 4,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve",
+      "h1. chose"
+    ],
+    "info": {
+      "r_letter": 0.64,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 12.8,
+    "parent_table_score": 5.800000000000001,
+    "parent_prob": 0.22775806443625582,
+    "action_score": 7.0,
+    "iteration": 3,
+    "pool_size": 11,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 10,
+    "env_step": 4,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve",
+      "v3. iblis"
+    ],
+    "info": {
+      "r_letter": 0.76,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 10.0,
+    "parent_table_score": 5.800000000000001,
+    "parent_prob": 0.22775806443625582,
+    "action_score": 4.2,
+    "iteration": 3,
+    "pool_size": 12,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 11,
+    "env_step": 4,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve",
+      "h2. media"
+    ],
+    "info": {
+      "r_letter": 0.6,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.6000000000000005,
+    "parent_table_score": 5.800000000000001,
+    "parent_prob": 0.22775806443625582,
+    "action_score": 1.7999999999999998,
+    "iteration": 3,
+    "pool_size": 13,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 12,
+    "env_step": 5,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve",
+      "h1. chose",
+      "v1. crush"
+    ],
+    "info": {
+      "r_letter": 0.8,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 14.3,
+    "parent_table_score": 12.8,
+    "parent_prob": 0.9342909810216118,
+    "action_score": 1.5,
+    "iteration": 4,
+    "pool_size": 14,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 13,
+    "env_step": 6,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve",
+      "h1. chose",
+      "v1. crush",
+      "h4. slave"
+    ],
+    "info": {
+      "r_letter": 0.8,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 15.4,
+    "parent_table_score": 14.3,
+    "parent_prob": 0.8072178291793887,
+    "action_score": 1.1,
+    "iteration": 5,
+    "pool_size": 15,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 14,
+    "env_step": 6,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve",
+      "h1. chose",
+      "v1. crush",
+      "h5. honer"
+    ],
+    "info": {
+      "r_letter": 0.8,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 15.100000000000001,
+    "parent_table_score": 14.3,
+    "parent_prob": 0.8072178291793887,
+    "action_score": 0.8,
+    "iteration": 5,
+    "pool_size": 16,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 15,
+    "env_step": 7,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve",
+      "h1. chose",
+      "v1. crush",
+      "h5. honer",
+      "h4. slave"
+    ],
+    "info": {
+      "r_letter": 0.8,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 1
+    },
+    "table_score": 16.1,
+    "parent_table_score": 15.100000000000001,
+    "parent_prob": 0.344056679077132,
+    "action_score": 1.0,
+    "iteration": 6,
+    "pool_size": 17,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 16,
+    "env_step": 7,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve",
+      "h1. chose",
+      "v1. crush",
+      "h5. honer",
+      "h4. slive"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 15.700000000000001,
+    "parent_table_score": 15.100000000000001,
+    "parent_prob": 0.344056679077132,
+    "action_score": 0.6,
+    "iteration": 6,
+    "pool_size": 18,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 17,
+    "env_step": 8,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve",
+      "h1. chose",
+      "v1. crush",
+      "h5. honer",
+      "h4. slive",
+      "v3. oblin"
+    ],
+    "info": {
+      "r_letter": 0.92,
+      "r_word": 0.7,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 16.1,
+    "parent_table_score": 15.700000000000001,
+    "parent_prob": 0.24468156832734508,
+    "action_score": 0.4,
+    "iteration": 8,
+    "pool_size": 19,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 18,
+    "env_step": 8,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve",
+      "h1. chose",
+      "v1. crush",
+      "h5. honer",
+      "h4. slive",
+      "h2. rebia"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 16.0,
+    "parent_table_score": 15.700000000000001,
+    "parent_prob": 0.24468156832734508,
+    "action_score": 0.30000000000000004,
+    "iteration": 8,
+    "pool_size": 20,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 19,
+    "env_step": 7,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve",
+      "h1. chose",
+      "v1. crush",
+      "h4. slave",
+      "h5. honer"
+    ],
+    "info": {
+      "r_letter": 0.8,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 1
+    },
+    "table_score": 16.0,
+    "parent_table_score": 15.4,
+    "parent_prob": 0.1069213436948966,
+    "action_score": 0.6000000000000001,
+    "iteration": 13,
+    "pool_size": 21,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 20,
+    "env_step": 7,
+    "actions": [
+      "v2. hello",
+      "v5. eater",
+      "v4. sieve",
+      "h1. chose",
+      "v1. crush",
+      "h4. slave",
+      "h3. ulcet"
+    ],
+    "info": {
+      "r_letter": 0.8,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 15.9,
+    "parent_table_score": 15.4,
+    "parent_prob": 0.1069213436948966,
+    "action_score": 0.5,
+    "iteration": 13,
+    "pool_size": 22,
+    "candidate_index": 2
+  }
+]

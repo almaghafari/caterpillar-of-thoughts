@@ -1,0 +1,726 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "v5. owler"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 7.0,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "v4. kinda"
+    ],
+    "info": {
+      "r_letter": 0.04,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 7.0,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "v2. arhat"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 7.0,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "v2. arhat",
+      "h2. arrow"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 14.0,
+    "parent_table_score": 7.0,
+    "parent_prob": 0.33305814380036614,
+    "action_score": 7.0,
+    "iteration": 1,
+    "pool_size": 5,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "v2. arhat",
+      "h5. attar"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 13.2,
+    "parent_table_score": 7.0,
+    "parent_prob": 0.33305814380036614,
+    "action_score": 6.2,
+    "iteration": 1,
+    "pool_size": 6,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 5,
+    "env_step": 2,
+    "actions": [
+      "v2. arhat",
+      "v3. trust"
+    ],
+    "info": {
+      "r_letter": 0.4,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 12.7,
+    "parent_table_score": 7.0,
+    "parent_prob": 0.33305814380036614,
+    "action_score": 5.7,
+    "iteration": 1,
+    "pool_size": 7,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 6,
+    "env_step": 3,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 17.7,
+    "parent_table_score": 12.7,
+    "parent_prob": 0.1580262114434844,
+    "action_score": 5.0,
+    "iteration": 2,
+    "pool_size": 8,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 7,
+    "env_step": 3,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "v1. fatwa"
+    ],
+    "info": {
+      "r_letter": 0.6,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 17.7,
+    "parent_table_score": 12.7,
+    "parent_prob": 0.1580262114434844,
+    "action_score": 5.0,
+    "iteration": 2,
+    "pool_size": 9,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 8,
+    "env_step": 3,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h5. attar"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 17.2,
+    "parent_table_score": 12.7,
+    "parent_prob": 0.1580262114434844,
+    "action_score": 4.5,
+    "iteration": 2,
+    "pool_size": 10,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 9,
+    "env_step": 4,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "h5. attar"
+    ],
+    "info": {
+      "r_letter": 0.64,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 24.7,
+    "parent_table_score": 17.7,
+    "parent_prob": 0.3774768872005894,
+    "action_score": 7.0,
+    "iteration": 3,
+    "pool_size": 11,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 10,
+    "env_step": 4,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v1. fatwa"
+    ],
+    "info": {
+      "r_letter": 0.68,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 23.7,
+    "parent_table_score": 17.7,
+    "parent_prob": 0.3774768872005894,
+    "action_score": 6.0,
+    "iteration": 3,
+    "pool_size": 12,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 11,
+    "env_step": 4,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler"
+    ],
+    "info": {
+      "r_letter": 0.68,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 22.9,
+    "parent_table_score": 17.7,
+    "parent_prob": 0.3774768872005894,
+    "action_score": 5.2,
+    "iteration": 3,
+    "pool_size": 13,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 12,
+    "env_step": 5,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v1. fatwa"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 27.4,
+    "parent_table_score": 22.9,
+    "parent_prob": 0.10764491259193316,
+    "action_score": 4.5,
+    "iteration": 4,
+    "pool_size": 14,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 13,
+    "env_step": 5,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v4. sorta"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 27.099999999999998,
+    "parent_table_score": 22.9,
+    "parent_prob": 0.10764491259193316,
+    "action_score": 4.2,
+    "iteration": 4,
+    "pool_size": 15,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 14,
+    "env_step": 5,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "h4. waste"
+    ],
+    "info": {
+      "r_letter": 0.76,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 25.799999999999997,
+    "parent_table_score": 22.9,
+    "parent_prob": 0.10764491259193316,
+    "action_score": 2.9000000000000004,
+    "iteration": 4,
+    "pool_size": 16,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 15,
+    "env_step": 6,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v1. fatwa",
+      "v4. sorta"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 35.4,
+    "parent_table_score": 27.4,
+    "parent_prob": 0.48877882953364493,
+    "action_score": 8.0,
+    "iteration": 5,
+    "pool_size": 17,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 16,
+    "env_step": 6,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v1. fatwa",
+      "h5. attar"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 35.4,
+    "parent_table_score": 27.4,
+    "parent_prob": 0.48877882953364493,
+    "action_score": 8.0,
+    "iteration": 5,
+    "pool_size": 18,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 17,
+    "env_step": 6,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v1. fatwa",
+      "h4. waste"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 34.9,
+    "parent_table_score": 27.4,
+    "parent_prob": 0.48877882953364493,
+    "action_score": 7.5,
+    "iteration": 5,
+    "pool_size": 19,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 18,
+    "env_step": 7,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v1. fatwa",
+      "v4. sorta",
+      "h5. attar"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 43.4,
+    "parent_table_score": 35.4,
+    "parent_prob": 0.3835507380813332,
+    "action_score": 8.0,
+    "iteration": 6,
+    "pool_size": 20,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 19,
+    "env_step": 7,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v1. fatwa",
+      "v4. sorta",
+      "h4. waste"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 43.4,
+    "parent_table_score": 35.4,
+    "parent_prob": 0.3835507380813332,
+    "action_score": 8.0,
+    "iteration": 6,
+    "pool_size": 21,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 20,
+    "env_step": 7,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v1. fatwa",
+      "v4. sorta",
+      "h3. thurl"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 43.4,
+    "parent_table_score": 35.4,
+    "parent_prob": 0.3835507380813332,
+    "action_score": 8.0,
+    "iteration": 6,
+    "pool_size": 22,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 21,
+    "env_step": 8,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v1. fatwa",
+      "v4. sorta",
+      "h3. thurl",
+      "h5. attar"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 51.4,
+    "parent_table_score": 43.4,
+    "parent_prob": 0.3332361812280464,
+    "action_score": 8.0,
+    "iteration": 7,
+    "pool_size": 23,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 22,
+    "env_step": 8,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v1. fatwa",
+      "v4. sorta",
+      "h3. thurl",
+      "h4. waste"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 51.4,
+    "parent_table_score": 43.4,
+    "parent_prob": 0.3332361812280464,
+    "action_score": 8.0,
+    "iteration": 7,
+    "pool_size": 24,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 23,
+    "env_step": 8,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v1. fatwa",
+      "v4. sorta",
+      "h3. thurl",
+      "h1. fatso"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 51.4,
+    "parent_table_score": 43.4,
+    "parent_prob": 0.3332361812280464,
+    "action_score": 8.0,
+    "iteration": 7,
+    "pool_size": 25,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 24,
+    "env_step": 9,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v1. fatwa",
+      "v4. sorta",
+      "h3. thurl",
+      "h1. fatso",
+      "h5. attar"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 59.4,
+    "parent_table_score": 51.4,
+    "parent_prob": 0.3332215173779737,
+    "action_score": 8.0,
+    "iteration": 8,
+    "pool_size": 26,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 25,
+    "env_step": 9,
+    "actions": [
+      "v2. arhat",
+      "v3. trust",
+      "h2. arrow",
+      "v5. owler",
+      "v1. fatwa",
+      "v4. sorta",
+      "h3. thurl",
+      "h1. fatso",
+      "h4. waste"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 59.4,
+    "parent_table_score": 51.4,
+    "parent_prob": 0.3332215173779737,
+    "action_score": 8.0,
+    "iteration": 8,
+    "pool_size": 27,
+    "candidate_index": 1
+  }
+]

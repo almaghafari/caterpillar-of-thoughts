@@ -1,0 +1,421 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "v1. croak"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.5,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.5,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "h5. karst"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.5,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.5,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "h1. clasp"
+    ],
+    "info": {
+      "r_letter": 0.08,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.5,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.5,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "v1. croak",
+      "h5. karst"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 4.5,
+    "parent_table_score": 1.5,
+    "parent_prob": 0.27727478132119343,
+    "action_score": 3.0,
+    "iteration": 1,
+    "pool_size": 5,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "v1. croak",
+      "h1. clasp"
+    ],
+    "info": {
+      "r_letter": 0.24,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 4.5,
+    "parent_table_score": 1.5,
+    "parent_prob": 0.27727478132119343,
+    "action_score": 3.0,
+    "iteration": 1,
+    "pool_size": 6,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 5,
+    "env_step": 2,
+    "actions": [
+      "v1. croak",
+      "h4. alarm"
+    ],
+    "info": {
+      "r_letter": 0.24,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 3.2,
+    "parent_table_score": 1.5,
+    "parent_prob": 0.27727478132119343,
+    "action_score": 1.7,
+    "iteration": 1,
+    "pool_size": 7,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 6,
+    "env_step": 3,
+    "actions": [
+      "v1. croak",
+      "h1. clasp",
+      "h5. karst"
+    ],
+    "info": {
+      "r_letter": 0.4,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 11.5,
+    "parent_table_score": 4.5,
+    "parent_prob": 0.40781531036545215,
+    "action_score": 7.0,
+    "iteration": 2,
+    "pool_size": 8,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 7,
+    "env_step": 3,
+    "actions": [
+      "v1. croak",
+      "h1. clasp",
+      "h4. alarm"
+    ],
+    "info": {
+      "r_letter": 0.28,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 11.0,
+    "parent_table_score": 4.5,
+    "parent_prob": 0.40781531036545215,
+    "action_score": 6.5,
+    "iteration": 2,
+    "pool_size": 9,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 8,
+    "env_step": 3,
+    "actions": [
+      "v1. croak",
+      "h1. clasp",
+      "h3. ombre"
+    ],
+    "info": {
+      "r_letter": 0.4,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 11.0,
+    "parent_table_score": 4.5,
+    "parent_prob": 0.40781531036545215,
+    "action_score": 6.5,
+    "iteration": 2,
+    "pool_size": 10,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 9,
+    "env_step": 4,
+    "actions": [
+      "v1. croak",
+      "h1. clasp",
+      "h5. karst",
+      "h4. alarm"
+    ],
+    "info": {
+      "r_letter": 0.44,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 17.7,
+    "parent_table_score": 11.5,
+    "parent_prob": 0.45140667284648955,
+    "action_score": 6.2,
+    "iteration": 3,
+    "pool_size": 11,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 10,
+    "env_step": 4,
+    "actions": [
+      "v1. croak",
+      "h1. clasp",
+      "h5. karst",
+      "h3. ombre"
+    ],
+    "info": {
+      "r_letter": 0.56,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 17.5,
+    "parent_table_score": 11.5,
+    "parent_prob": 0.45140667284648955,
+    "action_score": 6.0,
+    "iteration": 3,
+    "pool_size": 12,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 11,
+    "env_step": 4,
+    "actions": [
+      "v1. croak",
+      "h1. clasp",
+      "h5. karst",
+      "h2. razor"
+    ],
+    "info": {
+      "r_letter": 0.44,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 17.5,
+    "parent_table_score": 11.5,
+    "parent_prob": 0.45140667284648955,
+    "action_score": 6.0,
+    "iteration": 3,
+    "pool_size": 13,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 12,
+    "env_step": 5,
+    "actions": [
+      "v1. croak",
+      "h1. clasp",
+      "h5. karst",
+      "h4. alarm",
+      "h3. ombre"
+    ],
+    "info": {
+      "r_letter": 0.6,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 24.7,
+    "parent_table_score": 17.7,
+    "parent_prob": 0.3785072531606957,
+    "action_score": 7.0,
+    "iteration": 4,
+    "pool_size": 14,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 13,
+    "env_step": 5,
+    "actions": [
+      "v1. croak",
+      "h1. clasp",
+      "h5. karst",
+      "h4. alarm",
+      "h2. razor"
+    ],
+    "info": {
+      "r_letter": 0.48,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 22.7,
+    "parent_table_score": 17.7,
+    "parent_prob": 0.3785072531606957,
+    "action_score": 5.0,
+    "iteration": 4,
+    "pool_size": 15,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 14,
+    "env_step": 5,
+    "actions": [
+      "v1. croak",
+      "h1. clasp",
+      "h5. karst",
+      "h4. alarm",
+      "h2. ruler"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 20.7,
+    "parent_table_score": 17.7,
+    "parent_prob": 0.3785072531606957,
+    "action_score": 3.0,
+    "iteration": 4,
+    "pool_size": 16,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 15,
+    "env_step": 6,
+    "actions": [
+      "v1. croak",
+      "h1. clasp",
+      "h5. karst",
+      "h4. alarm",
+      "h3. ombre",
+      "h2. razor"
+    ],
+    "info": {
+      "r_letter": 0.64,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 32.7,
+    "parent_table_score": 24.7,
+    "parent_prob": 0.8650069501849024,
+    "action_score": 8.0,
+    "iteration": 5,
+    "pool_size": 17,
+    "candidate_index": 0
+  }
+]

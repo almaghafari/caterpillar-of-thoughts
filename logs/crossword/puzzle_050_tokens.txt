@@ -1,0 +1,6 @@
+Puzzle 50 Token Usage
+==================================================
+Prompt tokens: 62,206
+Completion tokens: 20,109
+Total tokens: 82,315
+Estimated cost: $3.0727

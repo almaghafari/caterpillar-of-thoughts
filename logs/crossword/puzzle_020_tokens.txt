@@ -1,0 +1,6 @@
+Puzzle 20 Token Usage
+==================================================
+Prompt tokens: 52,923
+Completion tokens: 17,434
+Total tokens: 70,357
+Estimated cost: $2.6337

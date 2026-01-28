@@ -1,0 +1,6 @@
+Puzzle 95 Token Usage
+==================================================
+Prompt tokens: 55,353
+Completion tokens: 17,882
+Total tokens: 73,235
+Estimated cost: $2.7335

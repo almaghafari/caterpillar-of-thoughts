@@ -1,0 +1,694 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "v1. duomo"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 4.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 4.0,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "v2. invar"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 4.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 4.0,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "v4. delta"
+    ],
+    "info": {
+      "r_letter": 0.0,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 4.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 4.0,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "v4. delta",
+      "v1. duomo"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.6,
+    "parent_table_score": 4.0,
+    "parent_prob": 0.3278917437784153,
+    "action_score": 3.6,
+    "iteration": 1,
+    "pool_size": 5,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "v1. duomo",
+      "h5. order"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 8.0,
+    "parent_table_score": 4.0,
+    "parent_prob": 0.02522193950324055,
+    "action_score": 4.0,
+    "iteration": 8,
+    "pool_size": 6,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 5,
+    "env_step": 2,
+    "actions": [
+      "v1. duomo",
+      "h4. manse"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 8.0,
+    "parent_table_score": 4.0,
+    "parent_prob": 0.02522193950324055,
+    "action_score": 4.0,
+    "iteration": 8,
+    "pool_size": 7,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 6,
+    "env_step": 2,
+    "actions": [
+      "v1. duomo",
+      "h3. overt"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 8.0,
+    "parent_table_score": 4.0,
+    "parent_prob": 0.02522193950324055,
+    "action_score": 4.0,
+    "iteration": 8,
+    "pool_size": 8,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 7,
+    "env_step": 3,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "h1. disco"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 15.0,
+    "parent_table_score": 8.0,
+    "parent_prob": 0.2683714447660285,
+    "action_score": 7.0,
+    "iteration": 10,
+    "pool_size": 9,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 8,
+    "env_step": 3,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 14.5,
+    "parent_table_score": 8.0,
+    "parent_prob": 0.2683714447660285,
+    "action_score": 6.5,
+    "iteration": 10,
+    "pool_size": 10,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 9,
+    "env_step": 3,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v2. invar"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 1
+    },
+    "table_score": 14.5,
+    "parent_table_score": 8.0,
+    "parent_prob": 0.2683714447660285,
+    "action_score": 6.5,
+    "iteration": 10,
+    "pool_size": 11,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 10,
+    "env_step": 4,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "h2. unhat"
+    ],
+    "info": {
+      "r_letter": 0.64,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 18.5,
+    "parent_table_score": 14.5,
+    "parent_prob": 0.4986033911308426,
+    "action_score": 4.0,
+    "iteration": 11,
+    "pool_size": 11,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 11,
+    "env_step": 4,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar"
+    ],
+    "info": {
+      "r_letter": 0.68,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 18.5,
+    "parent_table_score": 14.5,
+    "parent_prob": 0.4986033911308426,
+    "action_score": 4.0,
+    "iteration": 11,
+    "pool_size": 12,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 12,
+    "env_step": 5,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h4. manse"
+    ],
+    "info": {
+      "r_letter": 0.76,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 25.5,
+    "parent_table_score": 18.5,
+    "parent_prob": 0.49098215927719957,
+    "action_score": 7.0,
+    "iteration": 12,
+    "pool_size": 13,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 13,
+    "env_step": 5,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h3. overt"
+    ],
+    "info": {
+      "r_letter": 0.76,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 1,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 25.5,
+    "parent_table_score": 18.5,
+    "parent_prob": 0.49098215927719957,
+    "action_score": 7.0,
+    "iteration": 12,
+    "pool_size": 14,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 14,
+    "env_step": 5,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h2. unhat"
+    ],
+    "info": {
+      "r_letter": 0.76,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 25.5,
+    "parent_table_score": 18.5,
+    "parent_prob": 0.49098215927719957,
+    "action_score": 7.0,
+    "iteration": 12,
+    "pool_size": 15,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 15,
+    "env_step": 6,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h3. overt",
+      "h1. disco"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 1
+    },
+    "table_score": 33.5,
+    "parent_table_score": 25.5,
+    "parent_prob": 0.3331270986886239,
+    "action_score": 8.0,
+    "iteration": 13,
+    "pool_size": 16,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 16,
+    "env_step": 6,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h3. overt",
+      "h2. unhat"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 33.5,
+    "parent_table_score": 25.5,
+    "parent_prob": 0.3331270986886239,
+    "action_score": 8.0,
+    "iteration": 13,
+    "pool_size": 17,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 17,
+    "env_step": 6,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h3. overt",
+      "h4. manse"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 33.5,
+    "parent_table_score": 25.5,
+    "parent_prob": 0.3331270986886239,
+    "action_score": 8.0,
+    "iteration": 13,
+    "pool_size": 18,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 18,
+    "env_step": 7,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h3. overt",
+      "h2. unhat",
+      "h4. manse"
+    ],
+    "info": {
+      "r_letter": 0.92,
+      "r_word": 0.7,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 40.5,
+    "parent_table_score": 33.5,
+    "parent_prob": 0.3332214807761014,
+    "action_score": 7.0,
+    "iteration": 14,
+    "pool_size": 19,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 19,
+    "env_step": 7,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h3. overt",
+      "h2. unhat",
+      "h1. disco"
+    ],
+    "info": {
+      "r_letter": 0.92,
+      "r_word": 0.7,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 40.5,
+    "parent_table_score": 33.5,
+    "parent_prob": 0.3332214807761014,
+    "action_score": 7.0,
+    "iteration": 14,
+    "pool_size": 20,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 20,
+    "env_step": 8,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h3. overt",
+      "h2. unhat",
+      "h1. disco",
+      "h4. manse"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 48.5,
+    "parent_table_score": 40.5,
+    "parent_prob": 0.49931679377589605,
+    "action_score": 8.0,
+    "iteration": 15,
+    "pool_size": 21,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 21,
+    "env_step": 8,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h3. overt",
+      "h2. unhat",
+      "h1. disco",
+      "v3. shend"
+    ],
+    "info": {
+      "r_letter": 0.96,
+      "r_word": 0.8,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 46.7,
+    "parent_table_score": 40.5,
+    "parent_prob": 0.49931679377589605,
+    "action_score": 6.2,
+    "iteration": 15,
+    "pool_size": 22,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 22,
+    "env_step": 8,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h3. overt",
+      "h2. unhat",
+      "h1. disco",
+      "v4. carse"
+    ],
+    "info": {
+      "r_letter": 0.96,
+      "r_word": 0.8,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 41.5,
+    "parent_table_score": 40.5,
+    "parent_prob": 0.49931679377589605,
+    "action_score": 1.0,
+    "iteration": 15,
+    "pool_size": 23,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 23,
+    "env_step": 9,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h3. overt",
+      "h2. unhat",
+      "h1. disco",
+      "h4. manse",
+      "v4. carse"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 56.5,
+    "parent_table_score": 48.5,
+    "parent_prob": 0.8569842317185506,
+    "action_score": 8.0,
+    "iteration": 16,
+    "pool_size": 24,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 24,
+    "env_step": 9,
+    "actions": [
+      "v1. duomo",
+      "h5. order",
+      "v5. otter",
+      "v2. invar",
+      "h3. overt",
+      "h2. unhat",
+      "h1. disco",
+      "h4. manse",
+      "v3. shend"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 56.5,
+    "parent_table_score": 48.5,
+    "parent_prob": 0.8569842317185506,
+    "action_score": 8.0,
+    "iteration": 16,
+    "pool_size": 25,
+    "candidate_index": 1
+  }
+]

@@ -1,0 +1,6 @@
+Puzzle 35 Token Usage
+==================================================
+Prompt tokens: 36,273
+Completion tokens: 12,084
+Total tokens: 48,357
+Estimated cost: $1.8132

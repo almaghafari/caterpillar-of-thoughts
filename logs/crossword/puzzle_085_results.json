@@ -1,0 +1,176 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "h2. habit"
+    ],
+    "info": {
+      "r_letter": 0.0,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 5.2,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 5.2,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "h5. spare"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 3.4,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 3.4,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "v4. egger"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 2.8,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 2.8,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "h2. habit",
+      "h5. spare"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 10.3,
+    "parent_table_score": 5.2,
+    "parent_prob": 0.7867743741738978,
+    "action_score": 5.1000000000000005,
+    "iteration": 1,
+    "pool_size": 5,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "h2. habit",
+      "h4. pries"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 9.9,
+    "parent_table_score": 5.2,
+    "parent_prob": 0.7867743741738978,
+    "action_score": 4.7,
+    "iteration": 1,
+    "pool_size": 6,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 5,
+    "env_step": 3,
+    "actions": [
+      "h2. habit",
+      "h5. spare",
+      "h4. pries"
+    ],
+    "info": {
+      "r_letter": 0.4,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 1
+    },
+    "table_score": 14.200000000000001,
+    "parent_table_score": 10.3,
+    "parent_prob": 0.5959230212667648,
+    "action_score": 3.9,
+    "iteration": 2,
+    "pool_size": 7,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 6,
+    "env_step": 3,
+    "actions": [
+      "h2. habit",
+      "h4. pries",
+      "h5. spare"
+    ],
+    "info": {
+      "r_letter": 0.4,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 1
+    },
+    "table_score": 13.3,
+    "parent_table_score": 9.9,
+    "parent_prob": 0.013122812174965278,
+    "action_score": 3.4000000000000004,
+    "iteration": 15,
+    "pool_size": 8,
+    "candidate_index": 1
+  }
+]

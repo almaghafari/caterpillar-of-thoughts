@@ -1,0 +1,466 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "v2. ricer"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.5,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.5,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "v5. treed"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.2,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.2,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "h5. tread"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.2,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.2,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "v2. ricer",
+      "h5. tread"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 3.4,
+    "parent_table_score": 1.5,
+    "parent_prob": 0.32381667418565235,
+    "action_score": 1.9,
+    "iteration": 1,
+    "pool_size": 5,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "v2. ricer",
+      "h4. sense"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 2.5999999999999996,
+    "parent_table_score": 1.5,
+    "parent_prob": 0.32381667418565235,
+    "action_score": 1.0999999999999999,
+    "iteration": 1,
+    "pool_size": 6,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 5,
+    "env_step": 3,
+    "actions": [
+      "v2. ricer",
+      "h4. sense",
+      "v5. treed"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 8.8,
+    "parent_table_score": 2.5999999999999996,
+    "parent_prob": 0.23510036960319897,
+    "action_score": 6.2,
+    "iteration": 2,
+    "pool_size": 7,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 6,
+    "env_step": 3,
+    "actions": [
+      "v2. ricer",
+      "h4. sense",
+      "h5. tread"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 8.8,
+    "parent_table_score": 2.5999999999999996,
+    "parent_prob": 0.23510036960319897,
+    "action_score": 6.2,
+    "iteration": 2,
+    "pool_size": 8,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 7,
+    "env_step": 3,
+    "actions": [
+      "v2. ricer",
+      "h4. sense",
+      "h1. press"
+    ],
+    "info": {
+      "r_letter": 0.4,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.6,
+    "parent_table_score": 2.5999999999999996,
+    "parent_prob": 0.23510036960319897,
+    "action_score": 5.0,
+    "iteration": 2,
+    "pool_size": 9,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 8,
+    "env_step": 4,
+    "actions": [
+      "v2. ricer",
+      "h4. sense",
+      "v5. treed",
+      "h1. print"
+    ],
+    "info": {
+      "r_letter": 0.64,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 16.8,
+    "parent_table_score": 8.8,
+    "parent_prob": 0.4329329684479492,
+    "action_score": 8.0,
+    "iteration": 3,
+    "pool_size": 10,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 9,
+    "env_step": 4,
+    "actions": [
+      "v2. ricer",
+      "h4. sense",
+      "v5. treed",
+      "h5. tread"
+    ],
+    "info": {
+      "r_letter": 0.64,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 15.5,
+    "parent_table_score": 8.8,
+    "parent_prob": 0.4329329684479492,
+    "action_score": 6.7,
+    "iteration": 3,
+    "pool_size": 11,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 10,
+    "env_step": 5,
+    "actions": [
+      "v2. ricer",
+      "h4. sense",
+      "v5. treed",
+      "h1. print",
+      "h5. tread"
+    ],
+    "info": {
+      "r_letter": 0.76,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 21.700000000000003,
+    "parent_table_score": 16.8,
+    "parent_prob": 0.7853567695387687,
+    "action_score": 4.9,
+    "iteration": 4,
+    "pool_size": 12,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 11,
+    "env_step": 5,
+    "actions": [
+      "v2. ricer",
+      "h4. sense",
+      "v5. treed",
+      "h1. print",
+      "v3. irons"
+    ],
+    "info": {
+      "r_letter": 0.64,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 19.400000000000002,
+    "parent_table_score": 16.8,
+    "parent_prob": 0.7853567695387687,
+    "action_score": 2.6000000000000005,
+    "iteration": 4,
+    "pool_size": 13,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 12,
+    "env_step": 6,
+    "actions": [
+      "v2. ricer",
+      "h4. sense",
+      "v5. treed",
+      "h1. print",
+      "h5. tread",
+      "v4. nassa"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 24.800000000000004,
+    "parent_table_score": 21.700000000000003,
+    "parent_prob": 0.9011114626481984,
+    "action_score": 3.1,
+    "iteration": 5,
+    "pool_size": 14,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 13,
+    "env_step": 7,
+    "actions": [
+      "v2. ricer",
+      "h4. sense",
+      "v5. treed",
+      "h1. print",
+      "h5. tread",
+      "v4. nassa",
+      "v3. irone"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 26.000000000000004,
+    "parent_table_score": 24.800000000000004,
+    "parent_prob": 0.9523873650025712,
+    "action_score": 1.2,
+    "iteration": 6,
+    "pool_size": 15,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 14,
+    "env_step": 8,
+    "actions": [
+      "v2. ricer",
+      "h4. sense",
+      "v5. treed",
+      "h1. print",
+      "h5. tread",
+      "v4. nassa",
+      "v3. irone",
+      "h3. scose"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 26.600000000000005,
+    "parent_table_score": 26.000000000000004,
+    "parent_prob": 0.7597330580962427,
+    "action_score": 0.6,
+    "iteration": 7,
+    "pool_size": 16,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 15,
+    "env_step": 9,
+    "actions": [
+      "v2. ricer",
+      "h4. sense",
+      "v5. treed",
+      "h1. print",
+      "h5. tread",
+      "v4. nassa",
+      "v3. irone",
+      "h3. scose",
+      "v1. pisst"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 27.200000000000006,
+    "parent_table_score": 26.600000000000005,
+    "parent_prob": 0.5805938929478965,
+    "action_score": 0.6,
+    "iteration": 9,
+    "pool_size": 17,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 16,
+    "env_step": 9,
+    "actions": [
+      "v2. ricer",
+      "h4. sense",
+      "v5. treed",
+      "h1. print",
+      "h5. tread",
+      "v4. nassa",
+      "v3. irone",
+      "h3. scose",
+      "v1. posst"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 26.700000000000006,
+    "parent_table_score": 26.600000000000005,
+    "parent_prob": 0.5805938929478965,
+    "action_score": 0.1,
+    "iteration": 9,
+    "pool_size": 18,
+    "candidate_index": 2
+  }
+]

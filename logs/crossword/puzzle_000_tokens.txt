@@ -1,0 +1,6 @@
+Puzzle 0 Token Usage
+==================================================
+Prompt tokens: 63,074
+Completion tokens: 20,462
+Total tokens: 83,536
+Estimated cost: $3.1199

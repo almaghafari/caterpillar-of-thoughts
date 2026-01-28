@@ -1,0 +1,403 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "v3. elope"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 4.5,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 4.5,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "v5. enact"
+    ],
+    "info": {
+      "r_letter": 0.08,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 3.7,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 3.7,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "h1. elect"
+    ],
+    "info": {
+      "r_letter": 0.04,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 3.2,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 3.2,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "v3. elope",
+      "v5. apply"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 5.0,
+    "parent_table_score": 4.5,
+    "parent_prob": 0.5707573149785089,
+    "action_score": 0.5,
+    "iteration": 1,
+    "pool_size": 5,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "v3. elope",
+      "h2. helix"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 5.0,
+    "parent_table_score": 4.5,
+    "parent_prob": 0.5707573149785089,
+    "action_score": 0.5,
+    "iteration": 1,
+    "pool_size": 6,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 5,
+    "env_step": 3,
+    "actions": [
+      "v3. elope",
+      "h2. helix",
+      "h3. erode"
+    ],
+    "info": {
+      "r_letter": 0.48,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 9.2,
+    "parent_table_score": 5.0,
+    "parent_prob": 0.32651174334640476,
+    "action_score": 4.2,
+    "iteration": 2,
+    "pool_size": 7,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 6,
+    "env_step": 3,
+    "actions": [
+      "v3. elope",
+      "h2. helix",
+      "v5. exert"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.6,
+    "parent_table_score": 5.0,
+    "parent_prob": 0.32651174334640476,
+    "action_score": 2.6,
+    "iteration": 2,
+    "pool_size": 8,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 7,
+    "env_step": 4,
+    "actions": [
+      "v3. elope",
+      "h2. helix",
+      "h3. erode",
+      "v5. exert"
+    ],
+    "info": {
+      "r_letter": 0.6,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 11.399999999999999,
+    "parent_table_score": 9.2,
+    "parent_prob": 0.8013956298980958,
+    "action_score": 2.2,
+    "iteration": 3,
+    "pool_size": 9,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 8,
+    "env_step": 4,
+    "actions": [
+      "v3. elope",
+      "h2. helix",
+      "h3. erode",
+      "v4. cider"
+    ],
+    "info": {
+      "r_letter": 0.56,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 11.399999999999999,
+    "parent_table_score": 9.2,
+    "parent_prob": 0.8013956298980958,
+    "action_score": 2.2,
+    "iteration": 3,
+    "pool_size": 10,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 9,
+    "env_step": 5,
+    "actions": [
+      "v3. elope",
+      "h2. helix",
+      "h3. erode",
+      "v5. exert",
+      "v4. cider"
+    ],
+    "info": {
+      "r_letter": 0.68,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 14.099999999999998,
+    "parent_table_score": 11.399999999999999,
+    "parent_prob": 0.46766937462325364,
+    "action_score": 2.7,
+    "iteration": 4,
+    "pool_size": 11,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 10,
+    "env_step": 5,
+    "actions": [
+      "v3. elope",
+      "h2. helix",
+      "h3. erode",
+      "v5. exert",
+      "v2. heron"
+    ],
+    "info": {
+      "r_letter": 0.72,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 13.999999999999998,
+    "parent_table_score": 11.399999999999999,
+    "parent_prob": 0.46766937462325364,
+    "action_score": 2.6,
+    "iteration": 4,
+    "pool_size": 12,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 11,
+    "env_step": 5,
+    "actions": [
+      "v3. elope",
+      "h2. helix",
+      "h3. erode",
+      "v5. exert",
+      "v1. chess"
+    ],
+    "info": {
+      "r_letter": 0.72,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 13.899999999999999,
+    "parent_table_score": 11.399999999999999,
+    "parent_prob": 0.46766937462325364,
+    "action_score": 2.5,
+    "iteration": 4,
+    "pool_size": 13,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 12,
+    "env_step": 6,
+    "actions": [
+      "v3. elope",
+      "h2. helix",
+      "h3. erode",
+      "v5. exert",
+      "v2. heron",
+      "v1. chess"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 22.0,
+    "parent_table_score": 13.999999999999998,
+    "parent_prob": 0.3155744086057653,
+    "action_score": 8.0,
+    "iteration": 5,
+    "pool_size": 14,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 13,
+    "env_step": 7,
+    "actions": [
+      "v3. elope",
+      "h2. helix",
+      "h3. erode",
+      "v5. exert",
+      "v2. heron",
+      "v1. chess",
+      "v4. cider"
+    ],
+    "info": {
+      "r_letter": 0.92,
+      "r_word": 0.7,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 29.2,
+    "parent_table_score": 22.0,
+    "parent_prob": 0.9989381065346503,
+    "action_score": 7.2,
+    "iteration": 6,
+    "pool_size": 15,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 14,
+    "env_step": 7,
+    "actions": [
+      "v3. elope",
+      "h2. helix",
+      "h3. erode",
+      "v5. exert",
+      "v2. heron",
+      "v1. chess",
+      "h4. sopor"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 23.5,
+    "parent_table_score": 22.0,
+    "parent_prob": 0.9989381065346503,
+    "action_score": 1.5,
+    "iteration": 6,
+    "pool_size": 16,
+    "candidate_index": 2
+  }
+]

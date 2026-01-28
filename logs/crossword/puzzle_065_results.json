@@ -1,0 +1,922 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "h3. uvula"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.5,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.5,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "h2. quill"
+    ],
+    "info": {
+      "r_letter": 0.0,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.5,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.5,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "v3. amuse"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.5,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.5,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 5.0,
+    "parent_table_score": 1.5,
+    "parent_prob": 0.27727478132119343,
+    "action_score": 3.5,
+    "iteration": 2,
+    "pool_size": 5,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "v3. amuse",
+      "v5. exalt"
+    ],
+    "info": {
+      "r_letter": 0.4,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 3.3,
+    "parent_table_score": 1.5,
+    "parent_prob": 0.27727478132119343,
+    "action_score": 1.7999999999999998,
+    "iteration": 2,
+    "pool_size": 6,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 5,
+    "env_step": 2,
+    "actions": [
+      "v3. amuse",
+      "v2. level"
+    ],
+    "info": {
+      "r_letter": 0.4,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 3.2,
+    "parent_table_score": 1.5,
+    "parent_prob": 0.27727478132119343,
+    "action_score": 1.7,
+    "iteration": 2,
+    "pool_size": 7,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 6,
+    "env_step": 3,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v2. level"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.6000000000000005,
+    "parent_table_score": 5.0,
+    "parent_prob": 0.6863935243839583,
+    "action_score": 2.6000000000000005,
+    "iteration": 3,
+    "pool_size": 8,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 7,
+    "env_step": 3,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.4,
+    "parent_table_score": 5.0,
+    "parent_prob": 0.6863935243839583,
+    "action_score": 2.4000000000000004,
+    "iteration": 3,
+    "pool_size": 9,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 8,
+    "env_step": 4,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "h2. remex"
+    ],
+    "info": {
+      "r_letter": 0.64,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 11.4,
+    "parent_table_score": 7.4,
+    "parent_prob": 0.4248866557292596,
+    "action_score": 4.0,
+    "iteration": 4,
+    "pool_size": 10,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 9,
+    "env_step": 4,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "h1. glade"
+    ],
+    "info": {
+      "r_letter": 0.64,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 11.4,
+    "parent_table_score": 7.4,
+    "parent_prob": 0.4248866557292596,
+    "action_score": 4.0,
+    "iteration": 4,
+    "pool_size": 11,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 10,
+    "env_step": 4,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level"
+    ],
+    "info": {
+      "r_letter": 0.68,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 11.4,
+    "parent_table_score": 7.4,
+    "parent_prob": 0.4248866557292596,
+    "action_score": 4.0,
+    "iteration": 4,
+    "pool_size": 12,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 11,
+    "env_step": 5,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h4. mesal"
+    ],
+    "info": {
+      "r_letter": 0.76,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 16.4,
+    "parent_table_score": 11.4,
+    "parent_prob": 0.32861150181987003,
+    "action_score": 5.0,
+    "iteration": 5,
+    "pool_size": 13,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 12,
+    "env_step": 5,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h1. glade"
+    ],
+    "info": {
+      "r_letter": 0.76,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 16.4,
+    "parent_table_score": 11.4,
+    "parent_prob": 0.32861150181987003,
+    "action_score": 5.0,
+    "iteration": 5,
+    "pool_size": 14,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 13,
+    "env_step": 5,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex"
+    ],
+    "info": {
+      "r_letter": 0.76,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 16.4,
+    "parent_table_score": 11.4,
+    "parent_prob": 0.32861150181987003,
+    "action_score": 5.0,
+    "iteration": 5,
+    "pool_size": 15,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 14,
+    "env_step": 6,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 23.4,
+    "parent_table_score": 16.4,
+    "parent_prob": 0.3310705440251423,
+    "action_score": 7.0,
+    "iteration": 6,
+    "pool_size": 16,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 15,
+    "env_step": 6,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h1. glade"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 23.4,
+    "parent_table_score": 16.4,
+    "parent_prob": 0.3310705440251423,
+    "action_score": 7.0,
+    "iteration": 6,
+    "pool_size": 17,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 16,
+    "env_step": 6,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "v4. delay"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 1
+    },
+    "table_score": 22.599999999999998,
+    "parent_table_score": 16.4,
+    "parent_prob": 0.3310705440251423,
+    "action_score": 6.2,
+    "iteration": 6,
+    "pool_size": 18,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 17,
+    "env_step": 7,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "v4. delay"
+    ],
+    "info": {
+      "r_letter": 0.92,
+      "r_word": 0.7,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 30.4,
+    "parent_table_score": 23.4,
+    "parent_prob": 0.40781648687758915,
+    "action_score": 7.0,
+    "iteration": 7,
+    "pool_size": 19,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 18,
+    "env_step": 7,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "h1. glade"
+    ],
+    "info": {
+      "r_letter": 0.92,
+      "r_word": 0.7,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 30.4,
+    "parent_table_score": 23.4,
+    "parent_prob": 0.40781648687758915,
+    "action_score": 7.0,
+    "iteration": 7,
+    "pool_size": 20,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 19,
+    "env_step": 7,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "v1. grump"
+    ],
+    "info": {
+      "r_letter": 0.92,
+      "r_word": 0.7,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 28.599999999999998,
+    "parent_table_score": 23.4,
+    "parent_prob": 0.40781648687758915,
+    "action_score": 5.2,
+    "iteration": 7,
+    "pool_size": 21,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 20,
+    "env_step": 8,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "v4. delay",
+      "h1. glade"
+    ],
+    "info": {
+      "r_letter": 0.96,
+      "r_word": 0.8,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 31.4,
+    "parent_table_score": 30.4,
+    "parent_prob": 0.46135358677200844,
+    "action_score": 1.0,
+    "iteration": 8,
+    "pool_size": 22,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 21,
+    "env_step": 8,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "v4. delay",
+      "v1. grump"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 30.9,
+    "parent_table_score": 30.4,
+    "parent_prob": 0.46135358677200844,
+    "action_score": 0.5,
+    "iteration": 8,
+    "pool_size": 23,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 22,
+    "env_step": 9,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "v4. delay",
+      "v1. grump",
+      "h1. glade"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 38.9,
+    "parent_table_score": 30.9,
+    "parent_prob": 0.2523087739673693,
+    "action_score": 8.0,
+    "iteration": 9,
+    "pool_size": 24,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 23,
+    "env_step": 8,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "h1. glade",
+      "v4. delay"
+    ],
+    "info": {
+      "r_letter": 0.96,
+      "r_word": 0.8,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 38.4,
+    "parent_table_score": 30.4,
+    "parent_prob": 0.15303300712571422,
+    "action_score": 8.0,
+    "iteration": 10,
+    "pool_size": 24,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 24,
+    "env_step": 8,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "h1. glade",
+      "v1. grump"
+    ],
+    "info": {
+      "r_letter": 0.96,
+      "r_word": 0.8,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 38.4,
+    "parent_table_score": 30.4,
+    "parent_prob": 0.15303300712571422,
+    "action_score": 8.0,
+    "iteration": 10,
+    "pool_size": 25,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 25,
+    "env_step": 8,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "h1. glade",
+      "h5. fleet"
+    ],
+    "info": {
+      "r_letter": 0.92,
+      "r_word": 0.7,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 37.4,
+    "parent_table_score": 30.4,
+    "parent_prob": 0.15303300712571422,
+    "action_score": 7.0,
+    "iteration": 10,
+    "pool_size": 26,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 26,
+    "env_step": 9,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "h1. glade",
+      "v4. delay",
+      "v1. grump"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 42.1,
+    "parent_table_score": 38.4,
+    "parent_prob": 0.42192819307780566,
+    "action_score": 3.7,
+    "iteration": 11,
+    "pool_size": 27,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 27,
+    "env_step": 9,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "h1. glade",
+      "v1. grump",
+      "v4. delay"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 45.4,
+    "parent_table_score": 38.4,
+    "parent_prob": 0.42192819307780566,
+    "action_score": 7.0,
+    "iteration": 12,
+    "pool_size": 27,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 28,
+    "env_step": 9,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "h1. glade",
+      "v1. grump",
+      "h5. pleat"
+    ],
+    "info": {
+      "r_letter": 0.96,
+      "r_word": 0.8,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 39.199999999999996,
+    "parent_table_score": 38.4,
+    "parent_prob": 0.42192819307780566,
+    "action_score": 0.7999999999999999,
+    "iteration": 12,
+    "pool_size": 28,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 29,
+    "env_step": 9,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "h1. glade",
+      "v1. grump",
+      "v4. delay"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 45.4,
+    "parent_table_score": 38.4,
+    "parent_prob": 0.21759885283222305,
+    "action_score": 7.0,
+    "iteration": 13,
+    "pool_size": 28,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 30,
+    "env_step": 9,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "h1. glade",
+      "v1. grump",
+      "v4. delay"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 45.4,
+    "parent_table_score": 38.4,
+    "parent_prob": 0.21759885283222305,
+    "action_score": 7.0,
+    "iteration": 18,
+    "pool_size": 28,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 31,
+    "env_step": 9,
+    "actions": [
+      "v3. amuse",
+      "h3. uvula",
+      "v5. exalt",
+      "v2. level",
+      "h2. remex",
+      "h4. mesal",
+      "h1. glade",
+      "v4. delay",
+      "v1. grump"
+    ],
+    "info": {
+      "r_letter": 1.0,
+      "r_word": 1.0,
+      "r_game": true
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 42.1,
+    "parent_table_score": 38.4,
+    "parent_prob": 0.21759885283222305,
+    "action_score": 3.7,
+    "iteration": 19,
+    "pool_size": 28,
+    "candidate_index": 0
+  }
+]

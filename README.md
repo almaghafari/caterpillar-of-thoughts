@@ -1,1 +1,40 @@
 # caterpillar-of-thoughts
+
+This repository contains research code accompanying **“Caterpillar of Thoughts: The Optimal Test-Time Algorithm for Large Language Models”**.  
+It provides reference implementations, experiment scripts, and logging utilities for studying **test-time computation with rewinding**—a family of inference-time methods that revisit previously generated intermediate states to allocate additional computation where it is most useful.
+
+## What this repo is about
+
+Modern LLM “reasoning” methods often look like *search*: you generate partial solutions, evaluate them, and then decide where to expand next.  
+In this project, we formalize this intuition using a **Markov-chain / state-exploration view**:
+
+- A **state** is a partially completed solution (e.g., a partial expression for Game of 24, or a partially filled crossword).
+- A **transition** samples the next state by “expanding” the current state (one more reasoning step, a new candidate fill, etc.).
+- The algorithm’s goal is to reach a **target/terminal state** (a correct final solution) with minimal expected compute.
+
+
+## What’s included
+
+This repo includes:
+
+- **CaT-style test-time search (Softmax Rewinding):**  
+  A practical rewinding algorithm that maintains a pool of observed states and repeatedly:
+  1) selects a previously observed state to rewind to,  
+  2) expands it by sampling new children,  
+  3) evaluates/filters the children, and  
+  4) adds them back to the observed set.
+
+  The selection step can be done in different ways (uniform / value-weighted / softmax), with softmax providing a smooth tradeoff between exploration and exploitation.
+
+- **Baselines inspired by Tree-of-Thoughts (ToT):**  
+  Implementations and/or adapters of ToT-like expansion + evaluation loops used as baselines, with consistent logging and cost accounting.
+
+- **Task implementations and evaluation:**  
+  - **Game of 24**: build arithmetic expressions from four numbers to reach 24.  
+  - **Crossword (5×5)**: fill a 5×5 board using 10 clues (5 across, 5 down), measuring letter/word/board success.
+
+- **Reproducible logging and cost tracking:**  
+  Runs are logged with full configuration, per-instance outcomes, and token usage (prompt/completion/total) so results can be compared under **matched budgets**.
+
+To run the task of Game of 24, run main_24!
+That will output the result of CaT for input ``4 5 6 10".

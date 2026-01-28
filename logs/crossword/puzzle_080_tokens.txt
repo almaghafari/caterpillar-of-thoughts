@@ -1,0 +1,6 @@
+Puzzle 80 Token Usage
+==================================================
+Prompt tokens: 31,633
+Completion tokens: 10,490
+Total tokens: 42,123
+Estimated cost: $1.5784

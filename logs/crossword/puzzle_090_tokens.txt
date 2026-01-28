@@ -1,0 +1,6 @@
+Puzzle 90 Token Usage
+==================================================
+Prompt tokens: 53,357
+Completion tokens: 17,141
+Total tokens: 70,498
+Estimated cost: $2.6292

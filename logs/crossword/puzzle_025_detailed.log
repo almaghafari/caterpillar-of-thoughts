@@ -1,0 +1,344 @@
+
+============================================================
+Iteration 0: |S| = 1 non-complete tables
+============================================================
+
+*** Sampled table #0 from S ***
+  Length: 0 actions
+  Score: 1.0000
+  Probability: 1.0000
+  (Empty table)
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Added table from action: v5. eater (confidence=1.0000, r_word=0.1000)
+  [2/3] Added table from action: h1. elect (confidence=1.0000, r_word=0.0000)
+  [3/3] Added table from action: v2. hello (confidence=1.0000, r_word=0.1000)
+Added 3 new tables to S (now |S|=4)
+Best so far: r_word=0.1
+
+============================================================
+Iteration 1: |S| = 4 non-complete tables
+============================================================
+
+*** Sampled table #3 from S ***
+  Length: 1 actions
+  Score: 1.0000
+  Probability: 0.2500
+  Actions: ['v2. hello']
+Generated 14 candidate actions for next step
+Processing top 3 candidates out of 14...
+  [1/3] Added table from action: v5. eater (confidence=3.7000, r_word=0.2000)
+  [2/3] Added table from action: v3. iblis (confidence=3.5000, r_word=0.1000)
+  [3/3] Added table from action: v4. sieve (confidence=3.4000, r_word=0.2000)
+Added 3 new tables to S (now |S|=7)
+Best so far: r_word=0.2
+
+============================================================
+Iteration 2: |S| = 7 non-complete tables
+============================================================
+
+*** Sampled table #4 from S ***
+  Length: 2 actions
+  Score: 3.7000
+  Probability: 0.3536
+  Actions: ['v2. hello', 'v5. eater']
+Generated 21 candidate actions for next step
+Processing top 3 candidates out of 21...
+  [1/3] Added table from action: h1. chose (confidence=6.6000, r_word=0.2000)
+  [2/3] Added table from action: v4. sieve (confidence=5.8000, r_word=0.3000)
+  [3/3] Added table from action: v3. iblis (confidence=5.6000, r_word=0.2000)
+Added 3 new tables to S (now |S|=10)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 3: |S| = 10 non-complete tables
+============================================================
+
+*** Sampled table #8 from S ***
+  Length: 3 actions
+  Score: 5.8000
+  Probability: 0.2278
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve']
+Generated 14 candidate actions for next step
+Processing top 3 candidates out of 14...
+  [1/3] Added table from action: h1. chose (confidence=12.8000, r_word=0.3000)
+  [2/3] Added table from action: v3. iblis (confidence=10.0000, r_word=0.3000)
+  [3/3] Added table from action: h2. media (confidence=7.6000, r_word=0.3000)
+Added 3 new tables to S (now |S|=13)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 4: |S| = 13 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 4 actions
+  Score: 12.8000
+  Probability: 0.9343
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose']
+Generated 11 candidate actions for next step
+Processing top 3 candidates out of 11...
+  [1/3] Added table from action: v1. crush (confidence=14.3000, r_word=0.4000)
+  [2/3] Invalid table from h3. tawny (steps=5, impossible=True)
+  [3/3] Invalid table from v3. iblis (steps=5, impossible=True)
+Added 1 new tables to S (now |S|=14)
+Best so far: r_word=0.4
+
+============================================================
+Iteration 5: |S| = 14 non-complete tables
+============================================================
+
+*** Sampled table #13 from S ***
+  Length: 5 actions
+  Score: 14.3000
+  Probability: 0.8072
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush']
+Generated 16 candidate actions for next step
+Processing top 3 candidates out of 16...
+  [1/3] Invalid table from v3. iblis (steps=6, impossible=True)
+  [2/3] Added table from action: h4. slave (confidence=15.4000, r_word=0.4000)
+  [3/3] Added table from action: h5. honer (confidence=15.1000, r_word=0.4000)
+Added 2 new tables to S (now |S|=16)
+Best so far: r_word=0.4
+
+============================================================
+Iteration 6: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #15 from S ***
+  Length: 6 actions
+  Score: 15.1000
+  Probability: 0.3441
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h5. honer']
+Generated 14 candidate actions for next step
+Processing top 3 candidates out of 14...
+  [1/3] Invalid table from v3. iblis (steps=7, impossible=True)
+  [2/3] Added table from action: h4. slave (confidence=16.1000, r_word=0.4000)
+  [3/3] Added table from action: h4. slive (confidence=15.7000, r_word=0.5000)
+Added 2 new tables to S (now |S|=18)
+Best so far: r_word=0.5
+
+============================================================
+Iteration 7: |S| = 18 non-complete tables
+============================================================
+
+*** Sampled table #15 from S ***
+  Length: 6 actions
+  Score: 15.1000
+  Probability: 0.1343
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h5. honer']
+Generated 14 candidate actions for next step
+Processing top 3 candidates out of 14...
+  [1/3] Invalid table from v3. iblis (steps=7, impossible=True)
+  [2/3] Table from h4. slave already in S
+  [3/3] Table from h4. slive already in S
+Added 0 new tables to S (now |S|=18)
+Best so far: r_word=0.5
+
+============================================================
+Iteration 8: |S| = 18 non-complete tables
+============================================================
+
+*** Sampled table #17 from S ***
+  Length: 7 actions
+  Score: 15.7000
+  Probability: 0.2447
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h5. honer', 'h4. slive']
+Generated 15 candidate actions for next step
+Processing top 3 candidates out of 15...
+  [1/3] Invalid table from h2. realm (steps=8, impossible=True)
+  [2/3] Added table from action: v3. oblin (confidence=16.1000, r_word=0.7000)
+  [3/3] Added table from action: h2. rebia (confidence=16.0000, r_word=0.6000)
+Added 2 new tables to S (now |S|=20)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 9: |S| = 20 non-complete tables
+============================================================
+
+*** Sampled table #16 from S ***
+  Length: 7 actions
+  Score: 16.1000
+  Probability: 0.2153
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h5. honer', 'h4. slave']
+Generated 19 candidate actions for next step
+Processing top 3 candidates out of 19...
+  [1/3] Invalid table from v3. iblis (steps=8, impossible=True)
+  [2/3] Invalid table from h2. realm (steps=8, impossible=True)
+  [3/3] Invalid table from h2. media (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=20)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 10: |S| = 20 non-complete tables
+============================================================
+
+*** Sampled table #18 from S ***
+  Length: 8 actions
+  Score: 16.1000
+  Probability: 0.2153
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h5. honer', 'h4. slive', 'v3. oblin']
+Generated 5 candidate actions for next step
+Processing top 3 candidates out of 5...
+  [1/3] Invalid table from h2. ruble (steps=9, impossible=True)
+  [2/3] Invalid table from h3. scops (steps=9, impossible=True)
+  [3/3] Invalid table from h2. penny (steps=9, impossible=True)
+Added 0 new tables to S (now |S|=20)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 11: |S| = 20 non-complete tables
+============================================================
+
+*** Sampled table #17 from S ***
+  Length: 7 actions
+  Score: 15.7000
+  Probability: 0.1443
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h5. honer', 'h4. slive']
+Generated 15 candidate actions for next step
+Processing top 3 candidates out of 15...
+  [1/3] Invalid table from h2. realm (steps=8, impossible=True)
+  [2/3] Table from v3. oblin already in S
+  [3/3] Table from h2. rebia already in S
+Added 0 new tables to S (now |S|=20)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 12: |S| = 20 non-complete tables
+============================================================
+
+*** Sampled table #18 from S ***
+  Length: 8 actions
+  Score: 16.1000
+  Probability: 0.2153
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h5. honer', 'h4. slive', 'v3. oblin']
+Generated 5 candidate actions for next step
+Processing top 3 candidates out of 5...
+  [1/3] Invalid table from h2. ruble (steps=9, impossible=True)
+  [2/3] Invalid table from h3. scops (steps=9, impossible=True)
+  [3/3] Invalid table from h2. penny (steps=9, impossible=True)
+Added 0 new tables to S (now |S|=20)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 13: |S| = 20 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 6 actions
+  Score: 15.4000
+  Probability: 0.1069
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h4. slave']
+Generated 19 candidate actions for next step
+Processing top 3 candidates out of 19...
+  [1/3] Invalid table from v3. iblis (steps=7, impossible=True)
+  [2/3] Added table from action: h5. honer (confidence=16.0000, r_word=0.4000)
+  [3/3] Added table from action: h3. ulcet (confidence=15.9000, r_word=0.4000)
+Added 2 new tables to S (now |S|=22)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 14: |S| = 22 non-complete tables
+============================================================
+
+*** Sampled table #20 from S ***
+  Length: 7 actions
+  Score: 16.0000
+  Probability: 0.1421
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h4. slave', 'h5. honer']
+Generated 19 candidate actions for next step
+Processing top 3 candidates out of 19...
+  [1/3] Invalid table from v3. iblis (steps=8, impossible=True)
+  [2/3] Invalid table from h2. realm (steps=8, impossible=True)
+  [3/3] Invalid table from h2. media (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=22)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 15: |S| = 22 non-complete tables
+============================================================
+
+*** Sampled table #20 from S ***
+  Length: 7 actions
+  Score: 16.0000
+  Probability: 0.1421
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h4. slave', 'h5. honer']
+Generated 19 candidate actions for next step
+Processing top 3 candidates out of 19...
+  [1/3] Invalid table from v3. iblis (steps=8, impossible=True)
+  [2/3] Invalid table from h2. realm (steps=8, impossible=True)
+  [3/3] Invalid table from h2. media (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=22)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 16: |S| = 22 non-complete tables
+============================================================
+
+*** Sampled table #18 from S ***
+  Length: 8 actions
+  Score: 16.1000
+  Probability: 0.1570
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h5. honer', 'h4. slive', 'v3. oblin']
+Generated 5 candidate actions for next step
+Processing top 3 candidates out of 5...
+  [1/3] Invalid table from h2. ruble (steps=9, impossible=True)
+  [2/3] Invalid table from h3. scops (steps=9, impossible=True)
+  [3/3] Invalid table from h2. penny (steps=9, impossible=True)
+Added 0 new tables to S (now |S|=22)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 17: |S| = 22 non-complete tables
+============================================================
+
+*** Sampled table #17 from S ***
+  Length: 7 actions
+  Score: 15.7000
+  Probability: 0.1053
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h5. honer', 'h4. slive']
+Generated 15 candidate actions for next step
+Processing top 3 candidates out of 15...
+  [1/3] Invalid table from h2. realm (steps=8, impossible=True)
+  [2/3] Table from v3. oblin already in S
+  [3/3] Table from h2. rebia already in S
+Added 0 new tables to S (now |S|=22)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 18: |S| = 22 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 6 actions
+  Score: 15.4000
+  Probability: 0.0780
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h4. slave']
+Generated 19 candidate actions for next step
+Processing top 3 candidates out of 19...
+  [1/3] Invalid table from v3. iblis (steps=7, impossible=True)
+  [2/3] Table from h5. honer already in S
+  [3/3] Table from h3. ulcet already in S
+Added 0 new tables to S (now |S|=22)
+Best so far: r_word=0.7
+
+============================================================
+Iteration 19: |S| = 22 non-complete tables
+============================================================
+
+*** Sampled table #20 from S ***
+  Length: 7 actions
+  Score: 16.0000
+  Probability: 0.1421
+  Actions: ['v2. hello', 'v5. eater', 'v4. sieve', 'h1. chose', 'v1. crush', 'h4. slave', 'h5. honer']
+Generated 19 candidate actions for next step
+Processing top 3 candidates out of 19...
+  [1/3] Invalid table from v3. iblis (steps=8, impossible=True)
+  [2/3] Invalid table from h2. realm (steps=8, impossible=True)
+  [3/3] Invalid table from h2. media (steps=8, impossible=True)
+Added 0 new tables to S (now |S|=22)
+Best so far: r_word=0.7
+
+Finished after 20 iterations with 21 steps logged
+Final |S| = 22 tables
+Total unique tables explored: 22

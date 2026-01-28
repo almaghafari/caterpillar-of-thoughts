@@ -1,0 +1,321 @@
+
+============================================================
+Iteration 0: |S| = 1 non-complete tables
+============================================================
+
+*** Sampled table #0 from S ***
+  Length: 0 actions
+  Score: 1.0000
+  Probability: 1.0000
+  (Empty table)
+Generated 10 candidate actions for next step
+Processing top 3 candidates out of 10...
+  [1/3] Added table from action: v5. owler (confidence=7.0000, r_word=0.1000)
+  [2/3] Added table from action: v4. kinda (confidence=7.0000, r_word=0.0000)
+  [3/3] Added table from action: v2. arhat (confidence=7.0000, r_word=0.1000)
+Added 3 new tables to S (now |S|=4)
+Best so far: r_word=0.1
+
+============================================================
+Iteration 1: |S| = 4 non-complete tables
+============================================================
+
+*** Sampled table #3 from S ***
+  Length: 1 actions
+  Score: 7.0000
+  Probability: 0.3331
+  Actions: ['v2. arhat']
+Generated 21 candidate actions for next step
+Processing top 3 candidates out of 21...
+  [1/3] Added table from action: h2. arrow (confidence=14.0000, r_word=0.2000)
+  [2/3] Added table from action: h5. attar (confidence=13.2000, r_word=0.2000)
+  [3/3] Added table from action: v3. trust (confidence=12.7000, r_word=0.2000)
+Added 3 new tables to S (now |S|=7)
+Best so far: r_word=0.2
+
+============================================================
+Iteration 2: |S| = 7 non-complete tables
+============================================================
+
+*** Sampled table #6 from S ***
+  Length: 2 actions
+  Score: 12.7000
+  Probability: 0.1580
+  Actions: ['v2. arhat', 'v3. trust']
+Generated 16 candidate actions for next step
+Processing top 3 candidates out of 16...
+  [1/3] Added table from action: h2. arrow (confidence=17.7000, r_word=0.3000)
+  [2/3] Added table from action: v1. fatwa (confidence=17.7000, r_word=0.3000)
+  [3/3] Added table from action: h5. attar (confidence=17.2000, r_word=0.3000)
+Added 3 new tables to S (now |S|=10)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 3: |S| = 10 non-complete tables
+============================================================
+
+*** Sampled table #7 from S ***
+  Length: 3 actions
+  Score: 17.7000
+  Probability: 0.3775
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow']
+Generated 14 candidate actions for next step
+Processing top 3 candidates out of 14...
+  [1/3] Added table from action: h5. attar (confidence=24.7000, r_word=0.4000)
+  [2/3] Added table from action: v1. fatwa (confidence=23.7000, r_word=0.4000)
+  [3/3] Added table from action: v5. owler (confidence=22.9000, r_word=0.4000)
+Added 3 new tables to S (now |S|=13)
+Best so far: r_word=0.4
+
+============================================================
+Iteration 4: |S| = 13 non-complete tables
+============================================================
+
+*** Sampled table #12 from S ***
+  Length: 4 actions
+  Score: 22.9000
+  Probability: 0.1076
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler']
+Generated 11 candidate actions for next step
+Processing top 3 candidates out of 11...
+  [1/3] Added table from action: v1. fatwa (confidence=27.4000, r_word=0.5000)
+  [2/3] Added table from action: v4. sorta (confidence=27.1000, r_word=0.5000)
+  [3/3] Added table from action: h4. waste (confidence=25.8000, r_word=0.5000)
+Added 3 new tables to S (now |S|=16)
+Best so far: r_word=0.5
+
+============================================================
+Iteration 5: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #13 from S ***
+  Length: 5 actions
+  Score: 27.4000
+  Probability: 0.4888
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa']
+Generated 7 candidate actions for next step
+Processing top 3 candidates out of 7...
+  [1/3] Added table from action: v4. sorta (confidence=35.4000, r_word=1.0000)
+  [2/3] Added table from action: h5. attar (confidence=35.4000, r_word=0.6000)
+  [3/3] Added table from action: h4. waste (confidence=34.9000, r_word=0.6000)
+Added 3 new tables to S (now |S|=19)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 6: |S| = 19 non-complete tables
+============================================================
+
+*** Sampled table #16 from S ***
+  Length: 6 actions
+  Score: 35.4000
+  Probability: 0.3836
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta']
+Generated 4 candidate actions for next step
+Processing top 3 candidates out of 4...
+  [1/3] Added table from action: h5. attar (confidence=43.4000, r_word=1.0000)
+  [2/3] Added table from action: h4. waste (confidence=43.4000, r_word=1.0000)
+  [3/3] Added table from action: h3. thurl (confidence=43.4000, r_word=1.0000)
+Added 3 new tables to S (now |S|=22)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 7: |S| = 22 non-complete tables
+============================================================
+
+*** Sampled table #21 from S ***
+  Length: 7 actions
+  Score: 43.4000
+  Probability: 0.3332
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl']
+Generated 3 candidate actions for next step
+Processing top 3 candidates out of 3...
+  [1/3] Added table from action: h5. attar (confidence=51.4000, r_word=1.0000)
+  [2/3] Added table from action: h4. waste (confidence=51.4000, r_word=1.0000)
+  [3/3] Added table from action: h1. fatso (confidence=51.4000, r_word=1.0000)
+Added 3 new tables to S (now |S|=25)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 8: |S| = 25 non-complete tables
+============================================================
+
+*** Sampled table #24 from S ***
+  Length: 8 actions
+  Score: 51.4000
+  Probability: 0.3332
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl', 'h1. fatso']
+Generated 2 candidate actions for next step
+Processing top 2 candidates out of 2...
+  [1/2] Added table from action: h5. attar (confidence=59.4000, r_word=1.0000)
+  [2/2] Added table from action: h4. waste (confidence=59.4000, r_word=1.0000)
+Added 2 new tables to S (now |S|=27)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 9: |S| = 27 non-complete tables
+============================================================
+
+*** Sampled table #25 from S ***
+  Length: 9 actions
+  Score: 59.4000
+  Probability: 0.4997
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl', 'h1. fatso', 'h5. attar']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h4. waste (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=27)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 10: |S| = 27 non-complete tables
+============================================================
+
+*** Sampled table #25 from S ***
+  Length: 9 actions
+  Score: 59.4000
+  Probability: 0.4997
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl', 'h1. fatso', 'h5. attar']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h4. waste (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=27)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 11: |S| = 27 non-complete tables
+============================================================
+
+*** Sampled table #26 from S ***
+  Length: 9 actions
+  Score: 59.4000
+  Probability: 0.4997
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl', 'h1. fatso', 'h4. waste']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h5. attar (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=27)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 12: |S| = 27 non-complete tables
+============================================================
+
+*** Sampled table #25 from S ***
+  Length: 9 actions
+  Score: 59.4000
+  Probability: 0.4997
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl', 'h1. fatso', 'h5. attar']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h4. waste (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=27)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 13: |S| = 27 non-complete tables
+============================================================
+
+*** Sampled table #26 from S ***
+  Length: 9 actions
+  Score: 59.4000
+  Probability: 0.4997
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl', 'h1. fatso', 'h4. waste']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h5. attar (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=27)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 14: |S| = 27 non-complete tables
+============================================================
+
+*** Sampled table #26 from S ***
+  Length: 9 actions
+  Score: 59.4000
+  Probability: 0.4997
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl', 'h1. fatso', 'h4. waste']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h5. attar (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=27)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 15: |S| = 27 non-complete tables
+============================================================
+
+*** Sampled table #26 from S ***
+  Length: 9 actions
+  Score: 59.4000
+  Probability: 0.4997
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl', 'h1. fatso', 'h4. waste']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h5. attar (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=27)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 16: |S| = 27 non-complete tables
+============================================================
+
+*** Sampled table #25 from S ***
+  Length: 9 actions
+  Score: 59.4000
+  Probability: 0.4997
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl', 'h1. fatso', 'h5. attar']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h4. waste (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=27)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 17: |S| = 27 non-complete tables
+============================================================
+
+*** Sampled table #25 from S ***
+  Length: 9 actions
+  Score: 59.4000
+  Probability: 0.4997
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl', 'h1. fatso', 'h5. attar']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h4. waste (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=27)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 18: |S| = 27 non-complete tables
+============================================================
+
+*** Sampled table #26 from S ***
+  Length: 9 actions
+  Score: 59.4000
+  Probability: 0.4997
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl', 'h1. fatso', 'h4. waste']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h5. attar (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=27)
+Best so far: r_word=1.0
+
+============================================================
+Iteration 19: |S| = 27 non-complete tables
+============================================================
+
+*** Sampled table #25 from S ***
+  Length: 9 actions
+  Score: 59.4000
+  Probability: 0.4997
+  Actions: ['v2. arhat', 'v3. trust', 'h2. arrow', 'v5. owler', 'v1. fatwa', 'v4. sorta', 'h3. thurl', 'h1. fatso', 'h5. attar']
+Generated 1 candidate actions for next step
+Processing top 1 candidates out of 1...
+  [1/1] Invalid table from h4. waste (steps=10, impossible=False)
+Added 0 new tables to S (now |S|=27)
+Best so far: r_word=1.0
+
+Finished after 20 iterations with 26 steps logged
+Final |S| = 27 tables
+Total unique tables explored: 27

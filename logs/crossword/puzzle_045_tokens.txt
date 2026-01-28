@@ -1,0 +1,6 @@
+Puzzle 46 Token Usage
+==================================================
+Prompt tokens: 30,502
+Completion tokens: 11,251
+Total tokens: 41,753
+Estimated cost: $1.5901

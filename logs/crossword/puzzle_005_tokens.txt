@@ -1,0 +1,6 @@
+Puzzle 5 Token Usage
+==================================================
+Prompt tokens: 80,518
+Completion tokens: 26,807
+Total tokens: 107,325
+Estimated cost: $4.0240

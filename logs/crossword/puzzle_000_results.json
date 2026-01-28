@@ -1,0 +1,316 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "v4. spout"
+    ],
+    "info": {
+      "r_letter": 0.0,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 2.7,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 2.7,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "h2. motor"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 2.7,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 2.7,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "h5. scoff"
+    ],
+    "info": {
+      "r_letter": 0.04,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 1,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.7,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.7,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "h2. motor",
+      "h4. salon"
+    ],
+    "info": {
+      "r_letter": 0.32,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 9.7,
+    "parent_table_score": 2.7,
+    "parent_prob": 0.39207030511873947,
+    "action_score": 7.0,
+    "iteration": 1,
+    "pool_size": 5,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "h2. motor",
+      "h1. tasks"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 9.7,
+    "parent_table_score": 2.7,
+    "parent_prob": 0.39207030511873947,
+    "action_score": 7.0,
+    "iteration": 1,
+    "pool_size": 6,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 5,
+    "env_step": 2,
+    "actions": [
+      "h2. motor",
+      "v5. drier"
+    ],
+    "info": {
+      "r_letter": 0.32,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 9.100000000000001,
+    "parent_table_score": 2.7,
+    "parent_prob": 0.39207030511873947,
+    "action_score": 6.4,
+    "iteration": 1,
+    "pool_size": 7,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 6,
+    "env_step": 3,
+    "actions": [
+      "h2. motor",
+      "v5. drier",
+      "v1. amass"
+    ],
+    "info": {
+      "r_letter": 0.48,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 14.100000000000001,
+    "parent_table_score": 9.100000000000001,
+    "parent_prob": 0.2151242914898422,
+    "action_score": 5.0,
+    "iteration": 2,
+    "pool_size": 8,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 7,
+    "env_step": 4,
+    "actions": [
+      "h2. motor",
+      "v5. drier",
+      "v1. amass",
+      "h1. ahead"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 19.1,
+    "parent_table_score": 14.100000000000001,
+    "parent_prob": 0.9696300413942603,
+    "action_score": 5.0,
+    "iteration": 3,
+    "pool_size": 9,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 8,
+    "env_step": 5,
+    "actions": [
+      "h2. motor",
+      "v5. drier",
+      "v1. amass",
+      "h1. ahead",
+      "h5. sneer"
+    ],
+    "info": {
+      "r_letter": 0.6,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 21.1,
+    "parent_table_score": 19.1,
+    "parent_prob": 0.9930989677261204,
+    "action_score": 2.0,
+    "iteration": 4,
+    "pool_size": 10,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 9,
+    "env_step": 5,
+    "actions": [
+      "h2. motor",
+      "v5. drier",
+      "v1. amass",
+      "h1. ahead",
+      "h4. suite"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 20.3,
+    "parent_table_score": 19.1,
+    "parent_prob": 0.9930989677261204,
+    "action_score": 1.2,
+    "iteration": 4,
+    "pool_size": 11,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 10,
+    "env_step": 6,
+    "actions": [
+      "h2. motor",
+      "v5. drier",
+      "v1. amass",
+      "h1. ahead",
+      "h4. suite",
+      "h5. sneer"
+    ],
+    "info": {
+      "r_letter": 0.6,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 22.3,
+    "parent_table_score": 20.3,
+    "parent_prob": 0.28338019356147914,
+    "action_score": 2.0,
+    "iteration": 9,
+    "pool_size": 12,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 11,
+    "env_step": 6,
+    "actions": [
+      "h2. motor",
+      "v5. drier",
+      "v1. amass",
+      "h1. ahead",
+      "h4. suite",
+      "v2. horus"
+    ],
+    "info": {
+      "r_letter": 0.56,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 20.900000000000002,
+    "parent_table_score": 20.3,
+    "parent_prob": 0.28338019356147914,
+    "action_score": 0.6,
+    "iteration": 9,
+    "pool_size": 13,
+    "candidate_index": 2
+  }
+]

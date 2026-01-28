@@ -1,0 +1,6 @@
+Puzzle 10 Token Usage
+==================================================
+Prompt tokens: 64,462
+Completion tokens: 20,290
+Total tokens: 84,752
+Estimated cost: $3.1513

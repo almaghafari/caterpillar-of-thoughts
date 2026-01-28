@@ -1,0 +1,6 @@
+Puzzle 15 Token Usage
+==================================================
+Prompt tokens: 60,198
+Completion tokens: 20,035
+Total tokens: 80,233
+Estimated cost: $3.0080

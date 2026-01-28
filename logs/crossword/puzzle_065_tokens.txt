@@ -1,0 +1,6 @@
+Puzzle 65 Token Usage
+==================================================
+Prompt tokens: 54,103
+Completion tokens: 17,446
+Total tokens: 71,549
+Estimated cost: $2.6698

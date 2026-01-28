@@ -1,0 +1,739 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "v5. enemy"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 2.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 2.0,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "h1. swarm"
+    ],
+    "info": {
+      "r_letter": 0.04,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 2.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 2.0,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "h4. totem"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 2.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 2.0,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "h4. totem",
+      "v5. enemy"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 8.7,
+    "parent_table_score": 2.0,
+    "parent_prob": 0.2969227424756547,
+    "action_score": 6.7,
+    "iteration": 1,
+    "pool_size": 5,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "h4. totem",
+      "h1. swarm"
+    ],
+    "info": {
+      "r_letter": 0.24,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 8.7,
+    "parent_table_score": 2.0,
+    "parent_prob": 0.2969227424756547,
+    "action_score": 6.7,
+    "iteration": 1,
+    "pool_size": 6,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 5,
+    "env_step": 2,
+    "actions": [
+      "h4. totem",
+      "v2. resow"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.7,
+    "parent_table_score": 2.0,
+    "parent_prob": 0.2969227424756547,
+    "action_score": 5.7,
+    "iteration": 1,
+    "pool_size": 7,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 6,
+    "env_step": 3,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "h1. horde"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 11.7,
+    "parent_table_score": 8.7,
+    "parent_prob": 0.7288496908140577,
+    "action_score": 3.0,
+    "iteration": 2,
+    "pool_size": 7,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 7,
+    "env_step": 3,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 11.2,
+    "parent_table_score": 8.7,
+    "parent_prob": 0.7288496908140577,
+    "action_score": 2.5,
+    "iteration": 2,
+    "pool_size": 8,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 8,
+    "env_step": 4,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow"
+    ],
+    "info": {
+      "r_letter": 0.68,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 12.7,
+    "parent_table_score": 11.2,
+    "parent_prob": 0.36214250063318193,
+    "action_score": 1.5,
+    "iteration": 3,
+    "pool_size": 9,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 9,
+    "env_step": 4,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v1. grate"
+    ],
+    "info": {
+      "r_letter": 0.6,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 11.799999999999999,
+    "parent_table_score": 11.2,
+    "parent_prob": 0.36214250063318193,
+    "action_score": 0.6000000000000001,
+    "iteration": 3,
+    "pool_size": 10,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 10,
+    "env_step": 4,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "h3. siege"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 11.7,
+    "parent_table_score": 11.2,
+    "parent_prob": 0.36214250063318193,
+    "action_score": 0.5,
+    "iteration": 3,
+    "pool_size": 11,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 11,
+    "env_step": 5,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage"
+    ],
+    "info": {
+      "r_letter": 0.76,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 19.4,
+    "parent_table_score": 12.7,
+    "parent_prob": 0.41830708985857734,
+    "action_score": 6.7,
+    "iteration": 4,
+    "pool_size": 12,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 12,
+    "env_step": 5,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "v1. abuts"
+    ],
+    "info": {
+      "r_letter": 0.68,
+      "r_word": 0.4,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 13.899999999999999,
+    "parent_table_score": 12.7,
+    "parent_prob": 0.41830708985857734,
+    "action_score": 1.2,
+    "iteration": 4,
+    "pool_size": 13,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 13,
+    "env_step": 6,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "h5. ewery"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 20.5,
+    "parent_table_score": 19.4,
+    "parent_prob": 0.9930196922712881,
+    "action_score": 1.1,
+    "iteration": 5,
+    "pool_size": 14,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 14,
+    "env_step": 6,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "v3. abate"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.5,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 20.5,
+    "parent_table_score": 19.4,
+    "parent_prob": 0.9930196922712881,
+    "action_score": 1.1,
+    "iteration": 5,
+    "pool_size": 15,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 15,
+    "env_step": 7,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "h5. ewery",
+      "v3. abate"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 22.1,
+    "parent_table_score": 20.5,
+    "parent_prob": 0.4282268357797732,
+    "action_score": 1.5999999999999999,
+    "iteration": 6,
+    "pool_size": 16,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 16,
+    "env_step": 7,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "h5. ewery",
+      "h1. grope"
+    ],
+    "info": {
+      "r_letter": 0.84,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 21.3,
+    "parent_table_score": 20.5,
+    "parent_prob": 0.4282268357797732,
+    "action_score": 0.7999999999999999,
+    "iteration": 6,
+    "pool_size": 17,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 17,
+    "env_step": 7,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "h5. ewery",
+      "h2. recan"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 21.2,
+    "parent_table_score": 20.5,
+    "parent_prob": 0.4282268357797732,
+    "action_score": 0.7,
+    "iteration": 6,
+    "pool_size": 18,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 18,
+    "env_step": 8,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "h5. ewery",
+      "v3. abate",
+      "h2. reban"
+    ],
+    "info": {
+      "r_letter": 0.92,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 22.900000000000002,
+    "parent_table_score": 22.1,
+    "parent_prob": 0.4296696177099988,
+    "action_score": 0.7999999999999999,
+    "iteration": 7,
+    "pool_size": 19,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 19,
+    "env_step": 8,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "h5. ewery",
+      "v3. abate",
+      "h1. drape"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 22.400000000000002,
+    "parent_table_score": 22.1,
+    "parent_prob": 0.4296696177099988,
+    "action_score": 0.30000000000000004,
+    "iteration": 7,
+    "pool_size": 20,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 20,
+    "env_step": 9,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "h5. ewery",
+      "v3. abate",
+      "h2. reban",
+      "h1. grape"
+    ],
+    "info": {
+      "r_letter": 0.92,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 23.3,
+    "parent_table_score": 22.900000000000002,
+    "parent_prob": 0.3770333562626816,
+    "action_score": 0.4,
+    "iteration": 8,
+    "pool_size": 21,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 21,
+    "env_step": 9,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "h5. ewery",
+      "v3. abate",
+      "h2. reban",
+      "v1. erote"
+    ],
+    "info": {
+      "r_letter": 0.92,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 23.1,
+    "parent_table_score": 22.900000000000002,
+    "parent_prob": 0.3770333562626816,
+    "action_score": 0.2,
+    "iteration": 8,
+    "pool_size": 22,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 22,
+    "env_step": 8,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "h5. ewery",
+      "h2. recan",
+      "v1. erote"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 23.8,
+    "parent_table_score": 21.2,
+    "parent_prob": 0.03404772944060629,
+    "action_score": 2.6,
+    "iteration": 11,
+    "pool_size": 23,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 23,
+    "env_step": 9,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "h5. ewery",
+      "h2. recan",
+      "v1. erote",
+      "h1. erupe"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 24.5,
+    "parent_table_score": 23.8,
+    "parent_prob": 0.3143216249665864,
+    "action_score": 0.7,
+    "iteration": 18,
+    "pool_size": 24,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 24,
+    "env_step": 9,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "h5. ewery",
+      "h2. recan",
+      "v1. erote",
+      "v3. scate"
+    ],
+    "info": {
+      "r_letter": 0.88,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 24.5,
+    "parent_table_score": 23.8,
+    "parent_prob": 0.3143216249665864,
+    "action_score": 0.7,
+    "iteration": 18,
+    "pool_size": 25,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 25,
+    "env_step": 9,
+    "actions": [
+      "h4. totem",
+      "v5. enemy",
+      "v4. pager",
+      "v2. resow",
+      "h3. osage",
+      "h5. ewery",
+      "h2. recan",
+      "v1. erote",
+      "v3. acate"
+    ],
+    "info": {
+      "r_letter": 0.92,
+      "r_word": 0.6,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 24.0,
+    "parent_table_score": 23.8,
+    "parent_prob": 0.3143216249665864,
+    "action_score": 0.2,
+    "iteration": 18,
+    "pool_size": 26,
+    "candidate_index": 2
+  }
+]

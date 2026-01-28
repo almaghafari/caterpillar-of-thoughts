@@ -1,0 +1,6 @@
+Puzzle 70 Token Usage
+==================================================
+Prompt tokens: 33,359
+Completion tokens: 12,550
+Total tokens: 45,909
+Estimated cost: $1.7538

@@ -1,0 +1,254 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "v4. armed"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 7.0,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "v2. inner"
+    ],
+    "info": {
+      "r_letter": 0.04,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 7.0,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "h2. intro"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 7.0,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 7.0,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "h2. intro",
+      "h4. navel"
+    ],
+    "info": {
+      "r_letter": 0.4,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 10.9,
+    "parent_table_score": 7.0,
+    "parent_prob": 0.33305814380036614,
+    "action_score": 3.9000000000000004,
+    "iteration": 1,
+    "pool_size": 5,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "h2. intro",
+      "v2. inner"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 10.7,
+    "parent_table_score": 7.0,
+    "parent_prob": 0.33305814380036614,
+    "action_score": 3.7,
+    "iteration": 1,
+    "pool_size": 6,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 5,
+    "env_step": 2,
+    "actions": [
+      "h2. intro",
+      "v4. armed"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 10.2,
+    "parent_table_score": 7.0,
+    "parent_prob": 0.33305814380036614,
+    "action_score": 3.2,
+    "iteration": 1,
+    "pool_size": 7,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 6,
+    "env_step": 3,
+    "actions": [
+      "h2. intro",
+      "v4. armed",
+      "h4. navel"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 14.2,
+    "parent_table_score": 10.2,
+    "parent_prob": 0.20899245943354894,
+    "action_score": 4.0,
+    "iteration": 2,
+    "pool_size": 8,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 7,
+    "env_step": 3,
+    "actions": [
+      "h2. intro",
+      "v4. armed",
+      "v2. inner"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 14.2,
+    "parent_table_score": 10.2,
+    "parent_prob": 0.20899245943354894,
+    "action_score": 4.0,
+    "iteration": 2,
+    "pool_size": 9,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 8,
+    "env_step": 3,
+    "actions": [
+      "h2. intro",
+      "v4. armed",
+      "h3. shame"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.2,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 13.0,
+    "parent_table_score": 10.2,
+    "parent_prob": 0.20899245943354894,
+    "action_score": 2.8000000000000003,
+    "iteration": 2,
+    "pool_size": 10,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 9,
+    "env_step": 4,
+    "actions": [
+      "h2. intro",
+      "v4. armed",
+      "h3. shame",
+      "h4. navel"
+    ],
+    "info": {
+      "r_letter": 0.52,
+      "r_word": 0.3,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 19.2,
+    "parent_table_score": 13.0,
+    "parent_prob": 0.12608430006605115,
+    "action_score": 6.2,
+    "iteration": 3,
+    "pool_size": 11,
+    "candidate_index": 0
+  }
+]

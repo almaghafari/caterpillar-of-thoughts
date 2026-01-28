@@ -1,0 +1,6 @@
+Puzzle 30 Token Usage
+==================================================
+Prompt tokens: 52,039
+Completion tokens: 17,591
+Total tokens: 69,630
+Estimated cost: $2.6166

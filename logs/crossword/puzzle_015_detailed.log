@@ -1,0 +1,344 @@
+
+============================================================
+Iteration 0: |S| = 1 non-complete tables
+============================================================
+
+*** Sampled table #0 from S ***
+  Length: 0 actions
+  Score: 1.0000
+  Probability: 1.0000
+  (Empty table)
+Generated 15 candidate actions for next step
+Processing top 3 candidates out of 15...
+  [1/3] Added table from action: h1. canis (confidence=6.0000, r_word=0.1000)
+  [2/3] Added table from action: h4. prone (confidence=4.4000, r_word=0.1000)
+  [3/3] Added table from action: v4. celts (confidence=2.2000, r_word=0.0000)
+Added 3 new tables to S (now |S|=4)
+Best so far: r_word=0.1
+
+============================================================
+Iteration 1: |S| = 4 non-complete tables
+============================================================
+
+*** Sampled table #1 from S ***
+  Length: 1 actions
+  Score: 6.0000
+  Probability: 0.8123
+  Actions: ['h1. canis']
+Generated 13 candidate actions for next step
+Processing top 3 candidates out of 13...
+  [1/3] Added table from action: v1. cadre (confidence=7.6000, r_word=0.1000)
+  [2/3] Added table from action: v4. iceni (confidence=7.3000, r_word=0.2000)
+  [3/3] Added table from action: h4. prone (confidence=7.3000, r_word=0.2000)
+Added 3 new tables to S (now |S|=7)
+Best so far: r_word=0.2
+
+============================================================
+Iteration 2: |S| = 7 non-complete tables
+============================================================
+
+*** Sampled table #5 from S ***
+  Length: 2 actions
+  Score: 7.3000
+  Probability: 0.2713
+  Actions: ['h1. canis', 'v4. iceni']
+Generated 11 candidate actions for next step
+Processing top 3 candidates out of 11...
+  [1/3] Added table from action: h4. prone (confidence=8.8000, r_word=0.3000)
+  [2/3] Added table from action: v5. sheen (confidence=8.5000, r_word=0.3000)
+  [3/3] Invalid table from h5. nilgi (steps=3, impossible=True)
+Added 2 new tables to S (now |S|=9)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 3: |S| = 9 non-complete tables
+============================================================
+
+*** Sampled table #6 from S ***
+  Length: 2 actions
+  Score: 7.3000
+  Probability: 0.0871
+  Actions: ['h1. canis', 'h4. prone']
+Generated 16 candidate actions for next step
+Processing top 3 candidates out of 16...
+  [1/3] Added table from action: v4. iceni (confidence=10.8000, r_word=0.3000)
+  [2/3] Invalid table from v5. shine (steps=3, impossible=True)
+  [3/3] Added table from action: v3. nomos (confidence=9.8000, r_word=0.3000)
+Added 2 new tables to S (now |S|=11)
+Best so far: r_word=0.3
+
+============================================================
+Iteration 4: |S| = 11 non-complete tables
+============================================================
+
+*** Sampled table #10 from S ***
+  Length: 3 actions
+  Score: 9.8000
+  Probability: 0.2145
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos']
+Generated 12 candidate actions for next step
+Processing top 3 candidates out of 12...
+  [1/3] Added table from action: v1. corps (confidence=11.8000, r_word=0.4000)
+  [2/3] Added table from action: v5. sheen (confidence=11.8000, r_word=0.4000)
+  [3/3] Added table from action: v4. iceni (confidence=11.5000, r_word=0.4000)
+Added 3 new tables to S (now |S|=14)
+Best so far: r_word=0.4
+
+============================================================
+Iteration 5: |S| = 14 non-complete tables
+============================================================
+
+*** Sampled table #12 from S ***
+  Length: 4 actions
+  Score: 11.8000
+  Probability: 0.2966
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen']
+Generated 29 candidate actions for next step
+Processing top 3 candidates out of 29...
+  [1/3] Added table from action: v2. arara (confidence=13.4000, r_word=0.5000)
+  [2/3] Added table from action: h3. ramie (confidence=12.8000, r_word=0.4000)
+  [3/3] Invalid table from h2. korea (steps=5, impossible=True)
+Added 2 new tables to S (now |S|=16)
+Best so far: r_word=0.5
+
+============================================================
+Iteration 6: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #12 from S ***
+  Length: 4 actions
+  Score: 11.8000
+  Probability: 0.0906
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen']
+Generated 29 candidate actions for next step
+Processing top 3 candidates out of 29...
+  [1/3] Table from v2. arara already in S
+  [2/3] Table from h3. ramie already in S
+  [3/3] Invalid table from h2. korea (steps=5, impossible=True)
+Added 0 new tables to S (now |S|=16)
+Best so far: r_word=0.5
+
+============================================================
+Iteration 7: |S| = 16 non-complete tables
+============================================================
+
+*** Sampled table #14 from S ***
+  Length: 5 actions
+  Score: 13.4000
+  Probability: 0.4485
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara']
+Generated 17 candidate actions for next step
+Processing top 3 candidates out of 17...
+  [1/3] Added table from action: h3. ramie (confidence=20.4000, r_word=0.5000)
+  [2/3] Added table from action: h5. sasin (confidence=16.4000, r_word=0.6000)
+  [3/3] Added table from action: v4. iceni (confidence=15.6000, r_word=0.6000)
+Added 3 new tables to S (now |S|=19)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 8: |S| = 19 non-complete tables
+============================================================
+
+*** Sampled table #16 from S ***
+  Length: 6 actions
+  Score: 20.4000
+  Probability: 0.9722
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara', 'h3. ramie']
+Generated 11 candidate actions for next step
+Processing top 3 candidates out of 11...
+  [1/3] Added table from action: h2. uroch (confidence=21.5000, r_word=0.5000)
+  [2/3] Added table from action: v1. carpe (confidence=21.3000, r_word=0.5000)
+  [3/3] Invalid table from v4. iceni (steps=7, impossible=True)
+Added 2 new tables to S (now |S|=21)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 9: |S| = 21 non-complete tables
+============================================================
+
+*** Sampled table #19 from S ***
+  Length: 7 actions
+  Score: 21.5000
+  Probability: 0.4627
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara', 'h3. ramie', 'h2. uroch']
+Generated 4 candidate actions for next step
+Processing top 3 candidates out of 4...
+  [1/3] Added table from action: h5. basin (confidence=25.9000, r_word=0.5000)
+  [2/3] Added table from action: v4. icini (confidence=23.7000, r_word=0.5000)
+  [3/3] Invalid table from v1. group (steps=8, impossible=True)
+Added 2 new tables to S (now |S|=23)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 10: |S| = 23 non-complete tables
+============================================================
+
+*** Sampled table #21 from S ***
+  Length: 8 actions
+  Score: 25.9000
+  Probability: 0.8792
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara', 'h3. ramie', 'h2. uroch', 'h5. basin']
+Generated 4 candidate actions for next step
+Processing top 3 candidates out of 4...
+  [1/3] Invalid table from v4. iceni (steps=9, impossible=True)
+  [2/3] Invalid table from v1. group (steps=9, impossible=True)
+  [3/3] Added table from action: v4. icini (confidence=27.9000, r_word=0.5000)
+Added 1 new tables to S (now |S|=24)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 11: |S| = 24 non-complete tables
+============================================================
+
+*** Sampled table #23 from S ***
+  Length: 9 actions
+  Score: 27.9000
+  Probability: 0.8666
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara', 'h3. ramie', 'h2. uroch', 'h5. basin', 'v4. icini']
+Generated 3 candidate actions for next step
+Processing top 3 candidates out of 3...
+  [1/3] Invalid table from v1. group (steps=10, impossible=True)
+  [2/3] Invalid table from v1. curbs (steps=10, impossible=True)
+  [3/3] Invalid table from v1. batch (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=24)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 12: |S| = 24 non-complete tables
+============================================================
+
+*** Sampled table #23 from S ***
+  Length: 9 actions
+  Score: 27.9000
+  Probability: 0.8666
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara', 'h3. ramie', 'h2. uroch', 'h5. basin', 'v4. icini']
+Generated 3 candidate actions for next step
+Processing top 3 candidates out of 3...
+  [1/3] Invalid table from v1. group (steps=10, impossible=True)
+  [2/3] Invalid table from v1. curbs (steps=10, impossible=True)
+  [3/3] Invalid table from v1. batch (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=24)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 13: |S| = 24 non-complete tables
+============================================================
+
+*** Sampled table #23 from S ***
+  Length: 9 actions
+  Score: 27.9000
+  Probability: 0.8666
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara', 'h3. ramie', 'h2. uroch', 'h5. basin', 'v4. icini']
+Generated 3 candidate actions for next step
+Processing top 3 candidates out of 3...
+  [1/3] Invalid table from v1. group (steps=10, impossible=True)
+  [2/3] Invalid table from v1. curbs (steps=10, impossible=True)
+  [3/3] Invalid table from v1. batch (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=24)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 14: |S| = 24 non-complete tables
+============================================================
+
+*** Sampled table #23 from S ***
+  Length: 9 actions
+  Score: 27.9000
+  Probability: 0.8666
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara', 'h3. ramie', 'h2. uroch', 'h5. basin', 'v4. icini']
+Generated 3 candidate actions for next step
+Processing top 3 candidates out of 3...
+  [1/3] Invalid table from v1. group (steps=10, impossible=True)
+  [2/3] Invalid table from v1. curbs (steps=10, impossible=True)
+  [3/3] Invalid table from v1. batch (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=24)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 15: |S| = 24 non-complete tables
+============================================================
+
+*** Sampled table #23 from S ***
+  Length: 9 actions
+  Score: 27.9000
+  Probability: 0.8666
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara', 'h3. ramie', 'h2. uroch', 'h5. basin', 'v4. icini']
+Generated 3 candidate actions for next step
+Processing top 3 candidates out of 3...
+  [1/3] Invalid table from v1. group (steps=10, impossible=True)
+  [2/3] Invalid table from v1. curbs (steps=10, impossible=True)
+  [3/3] Invalid table from v1. batch (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=24)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 16: |S| = 24 non-complete tables
+============================================================
+
+*** Sampled table #23 from S ***
+  Length: 9 actions
+  Score: 27.9000
+  Probability: 0.8666
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara', 'h3. ramie', 'h2. uroch', 'h5. basin', 'v4. icini']
+Generated 3 candidate actions for next step
+Processing top 3 candidates out of 3...
+  [1/3] Invalid table from v1. group (steps=10, impossible=True)
+  [2/3] Invalid table from v1. curbs (steps=10, impossible=True)
+  [3/3] Invalid table from v1. batch (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=24)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 17: |S| = 24 non-complete tables
+============================================================
+
+*** Sampled table #23 from S ***
+  Length: 9 actions
+  Score: 27.9000
+  Probability: 0.8666
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara', 'h3. ramie', 'h2. uroch', 'h5. basin', 'v4. icini']
+Generated 3 candidate actions for next step
+Processing top 3 candidates out of 3...
+  [1/3] Invalid table from v1. group (steps=10, impossible=True)
+  [2/3] Invalid table from v1. curbs (steps=10, impossible=True)
+  [3/3] Invalid table from v1. batch (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=24)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 18: |S| = 24 non-complete tables
+============================================================
+
+*** Sampled table #23 from S ***
+  Length: 9 actions
+  Score: 27.9000
+  Probability: 0.8666
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara', 'h3. ramie', 'h2. uroch', 'h5. basin', 'v4. icini']
+Generated 3 candidate actions for next step
+Processing top 3 candidates out of 3...
+  [1/3] Invalid table from v1. group (steps=10, impossible=True)
+  [2/3] Invalid table from v1. curbs (steps=10, impossible=True)
+  [3/3] Invalid table from v1. batch (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=24)
+Best so far: r_word=0.6
+
+============================================================
+Iteration 19: |S| = 24 non-complete tables
+============================================================
+
+*** Sampled table #23 from S ***
+  Length: 9 actions
+  Score: 27.9000
+  Probability: 0.8666
+  Actions: ['h1. canis', 'h4. prone', 'v3. nomos', 'v5. sheen', 'v2. arara', 'h3. ramie', 'h2. uroch', 'h5. basin', 'v4. icini']
+Generated 3 candidate actions for next step
+Processing top 3 candidates out of 3...
+  [1/3] Invalid table from v1. group (steps=10, impossible=True)
+  [2/3] Invalid table from v1. curbs (steps=10, impossible=True)
+  [3/3] Invalid table from v1. batch (steps=10, impossible=True)
+Added 0 new tables to S (now |S|=24)
+Best so far: r_word=0.6
+
+Finished after 20 iterations with 23 steps logged
+Final |S| = 24 tables
+Total unique tables explored: 24

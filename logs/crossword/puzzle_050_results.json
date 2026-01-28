@@ -1,0 +1,536 @@
+[
+  {
+    "total_step": 0,
+    "env_step": 1,
+    "actions": [
+      "h3. inner"
+    ],
+    "info": {
+      "r_letter": 0.04,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 2.5,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 2.5,
+    "iteration": 0,
+    "pool_size": 2,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 1,
+    "env_step": 1,
+    "actions": [
+      "h2. print"
+    ],
+    "info": {
+      "r_letter": 0.0,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.9,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.9,
+    "iteration": 0,
+    "pool_size": 3,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 2,
+    "env_step": 1,
+    "actions": [
+      "h5. merge"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 1.7,
+    "parent_table_score": 1.0,
+    "parent_prob": 1.0,
+    "action_score": 1.7,
+    "iteration": 0,
+    "pool_size": 4,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 3,
+    "env_step": 2,
+    "actions": [
+      "h2. print",
+      "h3. inner"
+    ],
+    "info": {
+      "r_letter": 0.04,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 6.5,
+    "parent_table_score": 1.9,
+    "parent_prob": 0.24707102163680414,
+    "action_score": 4.6,
+    "iteration": 1,
+    "pool_size": 5,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 4,
+    "env_step": 2,
+    "actions": [
+      "h2. print",
+      "h4. tasks"
+    ],
+    "info": {
+      "r_letter": 0.0,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 4.5,
+    "parent_table_score": 1.9,
+    "parent_prob": 0.24707102163680414,
+    "action_score": 2.6,
+    "iteration": 1,
+    "pool_size": 6,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 5,
+    "env_step": 3,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks"
+    ],
+    "info": {
+      "r_letter": 0.04,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 10.200000000000001,
+    "parent_table_score": 6.5,
+    "parent_prob": 0.850326197966196,
+    "action_score": 3.7000000000000006,
+    "iteration": 2,
+    "pool_size": 7,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 6,
+    "env_step": 3,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h5. merge"
+    ],
+    "info": {
+      "r_letter": 0.24,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 8.6,
+    "parent_table_score": 6.5,
+    "parent_prob": 0.850326197966196,
+    "action_score": 2.1,
+    "iteration": 2,
+    "pool_size": 8,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 7,
+    "env_step": 3,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h1. flans"
+    ],
+    "info": {
+      "r_letter": 0.16,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 8.0,
+    "parent_table_score": 6.5,
+    "parent_prob": 0.850326197966196,
+    "action_score": 1.5,
+    "iteration": 2,
+    "pool_size": 9,
+    "candidate_index": 2
+  },
+  {
+    "total_step": 8,
+    "env_step": 4,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks",
+      "h1. flans"
+    ],
+    "info": {
+      "r_letter": 0.16,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 17.200000000000003,
+    "parent_table_score": 10.200000000000001,
+    "parent_prob": 0.7452814257572618,
+    "action_score": 7.0,
+    "iteration": 3,
+    "pool_size": 10,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 9,
+    "env_step": 4,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks",
+      "h5. merge"
+    ],
+    "info": {
+      "r_letter": 0.24,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 14.200000000000001,
+    "parent_table_score": 10.200000000000001,
+    "parent_prob": 0.7452814257572618,
+    "action_score": 4.0,
+    "iteration": 3,
+    "pool_size": 11,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 10,
+    "env_step": 5,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks",
+      "h1. flans",
+      "h5. mixer"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 19.200000000000003,
+    "parent_table_score": 17.200000000000003,
+    "parent_prob": 0.9514651818136967,
+    "action_score": 2.0,
+    "iteration": 4,
+    "pool_size": 12,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 11,
+    "env_step": 5,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks",
+      "h1. flans",
+      "h5. mixer"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 19.200000000000003,
+    "parent_table_score": 17.200000000000003,
+    "parent_prob": 0.9514651818136967,
+    "action_score": 2.0,
+    "iteration": 5,
+    "pool_size": 12,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 12,
+    "env_step": 5,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks",
+      "h5. merge",
+      "h1. flans"
+    ],
+    "info": {
+      "r_letter": 0.36,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 17.200000000000003,
+    "parent_table_score": 14.200000000000001,
+    "parent_prob": 0.005898895126290845,
+    "action_score": 3.0,
+    "iteration": 6,
+    "pool_size": 13,
+    "candidate_index": 0
+  },
+  {
+    "total_step": 13,
+    "env_step": 5,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks",
+      "h5. merge",
+      "h1. creme"
+    ],
+    "info": {
+      "r_letter": 0.24,
+      "r_word": 0.1,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 16.700000000000003,
+    "parent_table_score": 14.200000000000001,
+    "parent_prob": 0.005898895126290845,
+    "action_score": 2.5,
+    "iteration": 6,
+    "pool_size": 14,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 14,
+    "env_step": 5,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks",
+      "h1. flans",
+      "h5. mixer"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 19.200000000000003,
+    "parent_table_score": 17.200000000000003,
+    "parent_prob": 0.6033032293011941,
+    "action_score": 2.0,
+    "iteration": 7,
+    "pool_size": 13,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 15,
+    "env_step": 5,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks",
+      "h1. flans",
+      "h5. mixer"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 19.200000000000003,
+    "parent_table_score": 17.200000000000003,
+    "parent_prob": 0.6033032293011941,
+    "action_score": 2.0,
+    "iteration": 9,
+    "pool_size": 13,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 16,
+    "env_step": 5,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks",
+      "h1. flans",
+      "h5. mixer"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 19.200000000000003,
+    "parent_table_score": 17.200000000000003,
+    "parent_prob": 0.6033032293011941,
+    "action_score": 2.0,
+    "iteration": 13,
+    "pool_size": 13,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 17,
+    "env_step": 5,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks",
+      "h1. flans",
+      "h5. mixer"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 19.200000000000003,
+    "parent_table_score": 17.200000000000003,
+    "parent_prob": 0.6033032293011941,
+    "action_score": 2.0,
+    "iteration": 14,
+    "pool_size": 13,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 18,
+    "env_step": 5,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks",
+      "h1. flans",
+      "h5. mixer"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 19.200000000000003,
+    "parent_table_score": 17.200000000000003,
+    "parent_prob": 0.6033032293011941,
+    "action_score": 2.0,
+    "iteration": 17,
+    "pool_size": 13,
+    "candidate_index": 1
+  },
+  {
+    "total_step": 19,
+    "env_step": 5,
+    "actions": [
+      "h2. print",
+      "h3. inner",
+      "h4. tasks",
+      "h1. flans",
+      "h5. mixer"
+    ],
+    "info": {
+      "r_letter": 0.2,
+      "r_word": 0.0,
+      "r_game": false
+    },
+    "count": {
+      "sure": 0,
+      "maybe": 0,
+      "impossible": 0
+    },
+    "table_score": 19.200000000000003,
+    "parent_table_score": 17.200000000000003,
+    "parent_prob": 0.6033032293011941,
+    "action_score": 2.0,
+    "iteration": 18,
+    "pool_size": 13,
+    "candidate_index": 1
+  }
+]

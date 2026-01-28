@@ -1,0 +1,6 @@
+Puzzle 75 Token Usage
+==================================================
+Prompt tokens: 28,198
+Completion tokens: 10,698
+Total tokens: 38,896
+Estimated cost: $1.4878

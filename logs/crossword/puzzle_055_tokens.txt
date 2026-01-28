@@ -1,0 +1,6 @@
+Puzzle 55 Token Usage
+==================================================
+Prompt tokens: 70,337
+Completion tokens: 22,530
+Total tokens: 92,867
+Estimated cost: $3.4619

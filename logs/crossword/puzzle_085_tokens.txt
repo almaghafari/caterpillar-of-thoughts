@@ -1,0 +1,6 @@
+Puzzle 85 Token Usage
+==================================================
+Prompt tokens: 21,027
+Completion tokens: 8,614
+Total tokens: 29,641
+Estimated cost: $1.1476
